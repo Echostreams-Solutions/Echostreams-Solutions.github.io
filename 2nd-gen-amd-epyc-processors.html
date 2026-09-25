@@ -1,0 +1,1075 @@
+---
+layout: page
+title: "2nd Gen AMD EPYC Processors"
+permalink: /2nd-gen-amd-epyc-processors.html
+template: page
+body_id: 2nd-gen-amd-epyc-processors
+---
+
+<link
+  rel="stylesheet"
+  href="{{ '/assets/css/epyc-rome-partner-landingpage.css' | relative_url }}"
+/>
+
+<link
+  rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<style type="text/css">
+  .tab-links {
+    -webkit-transition: top 0.2s;
+    transition: top 0.2s;
+    background: #0368b3;
+    z-index: 999;
+    padding: 15px 0;
+    position: relative;
+    height: 70px;
+    margin-right: -100%;
+    margin-left: -100%;
+    padding-left: 100%;
+  }
+
+  .tab-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .tab-links ul li {
+    display: inline-block;
+    vertical-align: middle;
+    list-style: none;
+
+    border-bottom: none;
+    background-color: #0368b3;
+  }
+
+  .tab-links ul li a {
+    padding: 9px 15px;
+    display: block;
+    background: #0368b3;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    border-radius: 5px;
+  }
+
+  .tab-links ul li a:hover,
+  .tab-links ul li a .active:hover {
+    background: white;
+    color: #0368b3;
+  }
+
+  .tab-links ul li a.active {
+    text-decoration: underline;
+  }
+
+  a {
+    color: #0368b3;
+  }
+
+  a:hover {
+    color: #007bff;
+  }
+
+  ._core-section {
+    padding: 25px 20px;
+  }
+
+  .p1 {
+    max-width: 100%;
+  }
+
+  .product-image {
+    min-height: 150px;
+  }
+
+  .product-section ul {
+    list-style-type: initial;
+    min-height: 110px;
+  }
+
+  .product-section h6 {
+    font-size: 14px;
+  }
+
+  .products a:hover img {
+    transition: 1s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transform: scale(1.2);
+  }
+
+  .product-section .col-5:first-child {
+    box-shadow: 2px 0 2px -2px rgba(0, 0, 0, 0.25);
+  }
+
+  .Resources h4 {
+    font-size: 1rem;
+    padding-top: 10px;
+  }
+
+  #product-features ul li {
+    list-style: none;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .products .col-25 {
+      max-width: 50%;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .product-image {
+      min-height: 225px;
+    }
+
+    .product-section .col-5:first-child {
+      box-shadow: none;
+    }
+  }
+  @media only screen and (max-width: 425px) {
+    .h2 {
+      font-size: 1rem;
+    }
+  }
+</style>
+
+<div class="hero">
+  <div id="w-node-1a1f42c92f5b-012e357a" class="message">
+    <img
+      src="https://echostreams.blob.core.windows.net/resources/pages/amd-epyc-2nd-gen/images/amd_arrow.svg"
+      alt="AMD Arrow"
+    />
+    <div class="hero-text-box">
+      <h1 class="hero-h1">2nd Gen AMD EPYC™ Processors</h1>
+      <p class="p1">
+        Featuring the latest AMD "Zen 2" 64 Cores, <br />Infinity architecture,
+        and PCIe&reg; Gen 4<br /><br /><strong>FlacheStreams</strong> - NVMe
+        Flash Storage Servers<br /><strong>DuraStreams</strong> - High
+        Availability Servers
+      </p>
+      <img
+        src="https://echostreams.blob.core.windows.net/resources/pages/amd-epyc-2nd-gen/images/19259185-A_EPYC_PartnerProgramBadge_Elite_DIGITAL-229w.png"
+        alt="AMD Epyc Partner Program Elite"
+      />
+    </div>
+  </div>
+  <div class="product-tab">
+    <div class="intro" id="overview">
+      <p class="p2">
+        2nd Gen AMD EPYC™ CPUs are a new breed of server processors which sets a
+        higher standard for datacenters. Groundbreaking design gives AMD
+        EPYC&trade; performance you can count on to propel your modern
+        datacenter workloads. "Hardened at the Core" protection helps defend
+        against side-channel attacks and secure encrypted virtualization keeps
+        your data safe. The processor's agility helps you manage new deployments
+        and changing workloads, simply and cost-effectively. AMD is the server
+        processor company can count on for innovation and leadership today and
+        into the future.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="tab-container" style="overflow: auto">
+  <div style="background: #0368b3" id="sticky-tab">
+    <div style="max-width: 1440px; margin: 0 auto; position: relative">
+      <nav class="tab-links toggle-nav">
+        <ul id="#top-menu" class="toggle-nav">
+          <li>
+            <a href="#overview" class="toggle-nav" data-tab="tab4">Overview</a>
+          </li>
+
+          <li>
+            <a href="#tab1" class="toggle-nav" data-tab="tab1">Products</a>
+          </li>
+          <li>
+            <a href="#product-features" class="toggle-nav" data-tab="tab0"
+              >Features</a
+            >
+          </li>
+
+</ul>
+      </nav>
+    </div>
+  </div>
+
+  <div id="tab1" class="product-tab container">
+    <div style="background: #ededed; overflow: auto; padding: 50px">
+      <div class="product-section">
+        <div class="col-lg-12">
+          <h2>FlacheStreams: Flash Storage Servers</h2>
+          <ul>
+            <li>True balance architecture versus competitors</li>
+            <li>Highest Performance, Ultimate Throughput / IOPS</li>
+            <li>
+              Supports Latest Solid-State Technology: SATA, SAS, and NVMe (PCIe3
+              x4)
+            </li>
+            <li>Max PCIe4 Expansion Slots to eliminate bottlenecks</li>
+          </ul>
+        </div>
+        <div class="products col-12">
+          {% include product-grid.html slugs="flachesan1n36m-ur,flachesan1n10u-ur,flachesan2n24u-ur,flachesan4n24m-ur" %}
+        </div>
+
+        <div class="col-lg-12">
+          <h2>DuraStreams: High Availability Servers</h2>
+          <ul>
+            <li>Dual node design: Ultimate Redundancy and 24/7 runtime (HA)</li>
+            <li>
+              End-to-end dual-ported NVMe or 12G SAS support for superior
+              data-path redundancy
+            </li>
+            <li>
+              Max PCIe4 expansion slots for external IO bandwidth and minimum
+              latency
+            </li>
+          </ul>
+
+          <div class="products col-lg-12">
+            {% include product-grid.html slugs="dss448s-ur" %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="product-tab container" id="product-features">
+    <div class="wrapper" style="padding-top: 70px">
+      <div class="col-lg-7">
+        <div id="w-node-9b6805a316ca-012e357a" class="message-box-right">
+          <h1 class="h1">EPYC by the numbers</h1>
+          <p class="paragraph">
+            AMD EPYC&trade; has been engineered for datacenters that rely on CPU
+            performance. From oil and gas exploration, to in-memory databases,
+            to big data analytics to production rendering to standard datacenter
+            applications, highly parallel workloads have more cores to work
+            with. AMD EPYC™ 7002 generation processors scale from 8 to 64 cores
+            (16 to 128 threads per socket).
+          </p>
+        </div>
+
+        <div class="_core-section">
+          <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item">
+              <a
+                data-toggle="tab"
+                class="nav-link active show"
+                href="#_64-core"
+                role="tab"
+                >64-Core</a
+              >
+            </li>
+            <li class="nav-item">
+              <a data-toggle="tab" class="nav-link" href="#_48-core" role="tab"
+                >48-Core</a
+              >
+            </li>
+            <li class="nav-item">
+              <a data-toggle="tab" class="nav-link" href="#_32-core" role="tab"
+                >32-Core</a
+              >
+            </li>
+            <li class="nav-item">
+              <a data-toggle="tab" class="nav-link" href="#_24-core" role="tab"
+                >24-Core</a
+              >
+            </li>
+            <li class="nav-item">
+              <a data-toggle="tab" class="nav-link" href="#_16-core" role="tab"
+                >16-Core</a
+              >
+            </li>
+            <li class="nav-item">
+              <a data-toggle="tab" class="nav-link" href="#_12-core" role="tab"
+                >12-Core</a
+              >
+            </li>
+            <li class="nav-item">
+              <a data-toggle="tab" class="nav-link" href="#_8-core" role="tab"
+                >8-Core</a
+              >
+            </li>
+          </ul>
+
+          <div class="tab-content">
+            <div
+              class="tab-pane fade show active"
+              role="tabpanel"
+              id="_64-core"
+            >
+              <div class="specs">
+                <div class="cpu-spec">
+                  <h2 class="h2">128</h2>
+                  <p class="paragraph-table-1">threads</p>
+                </div>
+                <div class="cpu-spec">
+                  <p class="paragraph-table-2">up to</p>
+                  <h2 class="h2">2.25GHz</h2>
+                  <p class="paragraph-table-1">base</p>
+                </div>
+                <div class="cpu-spec">
+                  <p class="paragraph-table-2">up to</p>
+                  <h2 class="h2">3.4GHz</h2>
+                  <p class="paragraph-table-1">boost</p>
+                </div>
+                <div class="cpu-spec">
+                  <h2 class="h2">256MB</h2>
+                  <p class="paragraph-table-1">cache</p>
+                </div>
+              </div>
+              <div class="models">
+                <p class="paragraph-table-3">Models</p>
+                <p class="paragraph-table-4">7742</p>
+                <p class="paragraph-table-4">7702</p>
+                <p class="paragraph-table-4">7702P</p>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" role="tabpanel" id="_48-core">
+              <div class="specs">
+                <div class="cpu-spec">
+                  <h2 class="h2">96</h2>
+                  <p class="paragraph-table-1">threads</p>
+                </div>
+                <div class="cpu-spec">
+                  <p class="paragraph-table-2">up to</p>
+                  <h2 class="h2">2.4GHz</h2>
+                  <p class="paragraph-table-1">base</p>
+                </div>
+                <div class="cpu-spec">
+                  <p class="paragraph-table-2">up to</p>
+                  <h2 class="h2">3.4GHz</h2>
+                  <p class="paragraph-table-1">boost</p>
+                </div>
+                <div class="cpu-spec">
+                  <h2 class="h2">192MB</h2>
+                  <p class="paragraph-table-1">cache</p>
+                </div>
+              </div>
+              <div class="models">
+                <p class="paragraph-table-3">Models</p>
+                <p class="paragraph-table-4">7642</p>
+                <p class="paragraph-table-4">7552</p>
+              </div>
+            </div>
+            <div class="tab-pane fade" role="tabpanel" id="_32-core">
+              <div class="specs">
+                <div class="cpu-spec">
+                  <h2 class="h2">64</h2>
+                  <p class="paragraph-table-1">threads</p>
+                </div>
+                <div class="cpu-spec">
+                  <p class="paragraph-table-2">up to</p>
+                  <h2 class="h2">2.9GHz</h2>
+                  <p class="paragraph-table-1">base</p>
+                </div>
+                <div class="cpu-spec">
+                  <p class="paragraph-table-2">up to</p>
+                  <h2 class="h2">3.4GHz</h2>
+                  <p class="paragraph-table-1">boost</p>
+                </div>
+                <div class="cpu-spec">
+                  <h2 class="h2">128MB</h2>
+                  <p class="paragraph-table-1">cache</p>
+                </div>
+              </div>
+              <div class="models">
+                <p class="paragraph-table-3">Models</p>
+                <p class="paragraph-table-4">7542</p>
+                <p class="paragraph-table-4">7502</p>
+                <p class="paragraph-table-4">7502P</p>
+                <p class="paragraph-table-4">7452</p>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" role="tabpanel" id="_24-core">
+              <div class="specs">
+                <div class="cpu-spec">
+                  <h2 class="h2">48</h2>
+                  <p class="paragraph-table-1">threads</p>
+                </div>
+                <div class="cpu-spec">
+                  <p class="paragraph-table-2">up to</p>
+                  <h2 class="h2">2.8GHz</h2>
+                  <p class="paragraph-table-1">base</p>
+                </div>
+                <div class="cpu-spec">
+                  <p class="paragraph-table-2">up to</p>
+                  <h2 class="h2">3.35GHz</h2>
+                  <p class="paragraph-table-1">boost</p>
+                </div>
+                <div class="cpu-spec">
+                  <h2 class="h2">128MB</h2>
+                  <p class="paragraph-table-1">cache</p>
+                </div>
+              </div>
+              <div class="models">
+                <p class="paragraph-table-3">Models</p>
+                <p class="paragraph-table-4">7402</p>
+                <p class="paragraph-table-4">7402P</p>
+                <p class="paragraph-table-4">7352</p>
+              </div>
+            </div>
+            <div class="tab-pane fade" role="tabpanel" id="_16-core">
+              <div class="specs">
+                <div class="cpu-spec">
+                  <h2 class="h2">32</h2>
+                  <p class="paragraph-table-1">threads</p>
+                </div>
+                <div class="cpu-spec">
+                  <p class="paragraph-table-2">up to</p>
+                  <h2 class="h2">3.0GHz</h2>
+                  <p class="paragraph-table-1">base</p>
+                </div>
+                <div class="cpu-spec">
+                  <p class="paragraph-table-2">up to</p>
+                  <h2 class="h2">3.3GHz</h2>
+                  <p class="paragraph-table-1">boost</p>
+                </div>
+                <div class="cpu-spec">
+                  <p class="paragraph-table-2">up to</p>
+                  <h2 class="h2">128MB</h2>
+                  <p class="paragraph-table-1">cache</p>
+                </div>
+              </div>
+              <div class="models">
+                <p class="paragraph-table-3">Models</p>
+                <p class="paragraph-table-4">7302</p>
+                <p class="paragraph-table-4">7302P</p>
+                <p class="paragraph-table-4">7282</p>
+              </div>
+            </div>
+            <div class="tab-pane fade" role="tabpanel" id="_12-core">
+              <div class="specs">
+                <div class="cpu-spec">
+                  <h2 class="h2">24</h2>
+                  <p class="paragraph-table-1">threads</p>
+                </div>
+                <div class="cpu-spec">
+                  <p class="paragraph-table-2">up to</p>
+                  <h2 class="h2">2.6GHz</h2>
+                  <p class="paragraph-table-1">base</p>
+                </div>
+                <div class="cpu-spec">
+                  <p class="paragraph-table-2">up to</p>
+                  <h2 class="h2">3.2GHz</h2>
+                  <p class="paragraph-table-1">boost</p>
+                </div>
+                <div class="cpu-spec">
+                  <h2 class="h2">64MB</h2>
+                  <p class="paragraph-table-1">cache</p>
+                </div>
+              </div>
+              <div class="models">
+                <p class="paragraph-table-3">Models</p>
+                <p class="paragraph-table-4">7272</p>
+              </div>
+            </div>
+            <div class="tab-pane fade" role="tabpanel" id="_8-core">
+              <div class="specs">
+                <div class="cpu-spec">
+                  <h2 class="h2">16</h2>
+                  <p class="paragraph-table-1">threads</p>
+                </div>
+                <div class="cpu-spec">
+                  <p class="paragraph-table-2">up to</p>
+                  <h2 class="h2">3.2GHz</h2>
+                  <p class="paragraph-table-1">base</p>
+                </div>
+                <div class="cpu-spec">
+                  <p class="paragraph-table-2">up to</p>
+                  <h2 class="h2">3.4GHz</h2>
+                  <p class="paragraph-table-1">boost</p>
+                </div>
+                <div class="cpu-spec">
+                  <p class="paragraph-table-2">up to</p>
+                  <h2 class="h2">128MB</h2>
+                  <p class="paragraph-table-1">cache</p>
+                </div>
+              </div>
+              <div class="models">
+                <p class="paragraph-table-3">Models</p>
+                <p class="paragraph-table-4">7262</p>
+                <p class="paragraph-table-4">7252</p>
+                <p class="paragraph-table-4">7252P</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <img
+          src="https://echostreams.blob.core.windows.net/resources/pages/amd-epyc-2nd-gen/images/19280302_Epyc%20Rome%20Half%20Delidded_Top%20Open.png"
+          alt="2nd Gen AMD EPYC Open"
+          class="lazyload"
+          data-src="https://echostreams.blob.core.windows.net/resources/pages/amd-epyc-2nd-gen/images/19280302_Epyc%20Rome%20Half%20Delidded_Top%20Open.png"
+        />
+      </div>
+    </div>
+
+    <div id="Infinity-fabrics" class="container" style="background: #ededed">
+      <div class="wrapper row" style="max-width: 1200px">
+        <div class="col-lg-5">
+          <div
+            data-w-id="1080d126-f2a7-1c34-20e4-19d7c489f7ed"
+            style=""
+            class="html-embed-1 w-embed"
+          >
+            <video loop width="100%" autoplay="" muted="">
+              <source
+                src="https://echostreams.blob.core.windows.net/resources/pages/amd-epyc-2nd-gen/videos/architecture_1.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+
+        <div class="col-lg-5" style="padding-top: 70px">
+          <h1 class="h1">The secret is under the hood</h1>
+          <p class="paragraph">
+            AMD EPYC&trade; Infinity Architecture is a hybrid multi-die
+            architecture that is reaching new heights with AMD EPYC&trade; 7002
+            Series processors. AMD Infinity Architecture now decouples two
+            streams: eight dies for the processor cores, and one I/O die that
+            supports security and communication outside the processor. With the
+            agility to deliver the leading-edge process technology for CPU cores
+            while letting I/O circuitry develop at its own rate, new
+            capabilities can be brought to market faster
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="wrapper row" style="max-width: 1200px">
+        <div class="col-lg-5" style="padding-top: 70px">
+          <h1 class="h1">Forged from the finest silicon</h1>
+          <p class="paragraph">
+            AMD is first to market an x86 processor based on 7nm technology.
+            With double the core density and optimizations that improve
+            instructions per cycle, the result is 4x the Floating-Point
+            performance of 1st Gen AMD EPYC&trade;. <br />7nm process technology
+            also brings energy efficiency. 2nd Gen AMD EPYC™ can provide the
+            same performance at half the power consumption.
+          </p>
+        </div>
+        <div class="col-lg-5">
+          <div
+            data-w-id="1b3d3313-ff96-73c8-afc7-1b3fcb8fc009"
+            class="html-embed-2 w-embed"
+          >
+            <video width="100%" autoplay="" muted="">
+              <source
+                src="https://echostreams.blob.core.windows.net/resources/pages/amd-epyc-2nd-gen/videos/architecture_2.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" style="background: #ededed">
+      <div class="wrapper row" style="max-width: 1200px; padding: 50px 0">
+        <div class="col-lg-5">
+          <div
+            data-w-id="c5aae66c-1b2f-5880-bd64-62104b200323"
+            style=""
+            class="html-embed-5 w-embed"
+          >
+            <video loop width="100%" autoplay="" muted="">
+              <source
+                src="https://echostreams.blob.core.windows.net/resources/pages/amd-epyc-2nd-gen/videos/pci_gen4_1.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+        <div class="col-lg-5" style="padding-top: 50px">
+          <h1 class="h1">First to market PCIe® Gen 4 readiness</h1>
+          <p class="paragraph">
+            AMD EPYC&trade; processors are first to support PCIe Gen4 that
+            delivers double the I/O performance over PCIe Gen3. You can use 128
+            lanes of I/O to double the network bandwidth that ties together HPC
+            clusters and satisfies voracious needs for east-west bandwidth. For
+            other application needs and in virtualized environments, you can
+            connect with higher speed to GPU accelerators, NVMe drives, and you
+            can even use integrated disk controllers to access spinning disks
+            without the typical bottleneck of a PCIe RAID controller.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="wrapper row" style="padding: 50px 0">
+        <div class="col-lg-3 col-md-12">
+          <h1>All-in feature set</h1>
+          <p>
+            AMD takes pride in having transparent relationships with its
+            partners and customers. This means having an "all-in" feature set
+            that delivers full flexibility at every level. <br />
+            With AMD EPYC&trade;, you have the agility to choose the processor
+            your application requires without worrying about whether an
+            important feature or capability is included. Whatever the number of
+            cores you choose, you’ll have the I/O, memory, and memory bandwidth
+            to accomplish what you need.
+          </p>
+        </div>
+
+        <div class="col-lg-7 col-md-12">
+          <div class="_core-section">
+            <ul class="nav nav-tabs" role="tablist">
+              <li class="nav-item active">
+                <a
+                  data-toggle="tab"
+                  class="nav-link active show"
+                  href="#_mem-64-core"
+                  role="tab"
+                  >64-Core</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  data-toggle="tab"
+                  class="nav-link"
+                  href="#_mem-48-core"
+                  role="tab"
+                  >48-Core</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  data-toggle="tab"
+                  class="nav-link"
+                  href="#_mem-32-core"
+                  role="tab"
+                  >32-Core</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  data-toggle="tab"
+                  class="nav-link"
+                  href="#_mem-24-core"
+                  role="tab"
+                  >24-Core</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  data-toggle="tab"
+                  class="nav-link"
+                  href="#_mem-16-core"
+                  role="tab"
+                  >16-Core</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  data-toggle="tab"
+                  class="nav-link"
+                  href="#_mem-12-core"
+                  role="tab"
+                  >12-Core</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  data-toggle="tab"
+                  class="nav-link"
+                  href="#_mem-8-core"
+                  role="tab"
+                  >8-Core</a
+                >
+              </li>
+            </ul>
+
+            <div class="tab-content">
+              <div
+                class="tab-pane fade show active"
+                role="tabpanel"
+                id="_mem-64-core"
+              >
+                <div class="specs">
+                  <div class="cpu-spec">
+                    <h2 class="h2">128</h2>
+                    <p class="paragraph-table-1">threads</p>
+                  </div>
+                  <div class="cpu-spec">
+                    <p class="paragraph-table-2">up to</p>
+                    <h2 class="h2">2.25GHz</h2>
+                    <p class="paragraph-table-1">base</p>
+                  </div>
+                  <div class="cpu-spec">
+                    <p class="paragraph-table-2">up to</p>
+                    <h2 class="h2">3.4GHz</h2>
+                    <p class="paragraph-table-1">boost</p>
+                  </div>
+                  <div class="cpu-spec">
+                    <h2 class="h2">256MB</h2>
+                    <p class="paragraph-table-1">cache</p>
+                  </div>
+                </div>
+                <div class="models">
+                  <p class="paragraph-table-3">Models</p>
+                  <p class="paragraph-table-4">7742</p>
+                  <p class="paragraph-table-4">7702</p>
+                  <p class="paragraph-table-4">7702P</p>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" role="tabpanel" id="_mem-48-core">
+                <div class="specs">
+                  <div class="cpu-spec">
+                    <h2 class="h2">96</h2>
+                    <p class="paragraph-table-1">threads</p>
+                  </div>
+                  <div class="cpu-spec">
+                    <p class="paragraph-table-2">up to</p>
+                    <h2 class="h2">2.4GHz</h2>
+                    <p class="paragraph-table-1">base</p>
+                  </div>
+                  <div class="cpu-spec">
+                    <p class="paragraph-table-2">up to</p>
+                    <h2 class="h2">3.4GHz</h2>
+                    <p class="paragraph-table-1">boost</p>
+                  </div>
+                  <div class="cpu-spec">
+                    <h2 class="h2">192MB</h2>
+                    <p class="paragraph-table-1">cache</p>
+                  </div>
+                </div>
+                <div class="models">
+                  <p class="paragraph-table-3">Models</p>
+                  <p class="paragraph-table-4">7642</p>
+                  <p class="paragraph-table-4">7552</p>
+                </div>
+              </div>
+              <div class="tab-pane fade" role="tabpanel" id="_mem-32-core">
+                <div class="specs">
+                  <div class="cpu-spec">
+                    <h2 class="h2">64</h2>
+                    <p class="paragraph-table-1">threads</p>
+                  </div>
+                  <div class="cpu-spec">
+                    <p class="paragraph-table-2">up to</p>
+                    <h2 class="h2">2.9GHz</h2>
+                    <p class="paragraph-table-1">base</p>
+                  </div>
+                  <div class="cpu-spec">
+                    <p class="paragraph-table-2">up to</p>
+                    <h2 class="h2">3.4GHz</h2>
+                    <p class="paragraph-table-1">boost</p>
+                  </div>
+                  <div class="cpu-spec">
+                    <h2 class="h2">128MB</h2>
+                    <p class="paragraph-table-1">cache</p>
+                  </div>
+                </div>
+                <div class="models">
+                  <p class="paragraph-table-3">Models</p>
+                  <p class="paragraph-table-4">7542</p>
+                  <p class="paragraph-table-4">7502</p>
+                  <p class="paragraph-table-4">7502P</p>
+                  <p class="paragraph-table-4">7452</p>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" role="tabpanel" id="_mem-24-core">
+                <div class="specs">
+                  <div class="cpu-spec">
+                    <h2 class="h2">48</h2>
+                    <p class="paragraph-table-1">threads</p>
+                  </div>
+                  <div class="cpu-spec">
+                    <p class="paragraph-table-2">up to</p>
+                    <h2 class="h2">2.8GHz</h2>
+                    <p class="paragraph-table-1">base</p>
+                  </div>
+                  <div class="cpu-spec">
+                    <p class="paragraph-table-2">up to</p>
+                    <h2 class="h2">3.35GHz</h2>
+                    <p class="paragraph-table-1">boost</p>
+                  </div>
+                  <div class="cpu-spec">
+                    <h2 class="h2">128MB</h2>
+                    <p class="paragraph-table-1">cache</p>
+                  </div>
+                </div>
+                <div class="models">
+                  <p class="paragraph-table-3">Models</p>
+                  <p class="paragraph-table-4">7402</p>
+                  <p class="paragraph-table-4">7402P</p>
+                  <p class="paragraph-table-4">7352</p>
+                </div>
+              </div>
+              <div class="tab-pane fade" role="tabpanel" id="_mem-16-core">
+                <div class="specs">
+                  <div class="cpu-spec">
+                    <h2 class="h2">32</h2>
+                    <p class="paragraph-table-1">threads</p>
+                  </div>
+                  <div class="cpu-spec">
+                    <p class="paragraph-table-2">up to</p>
+                    <h2 class="h2">3.0GHz</h2>
+                    <p class="paragraph-table-1">base</p>
+                  </div>
+                  <div class="cpu-spec">
+                    <p class="paragraph-table-2">up to</p>
+                    <h2 class="h2">3.3GHz</h2>
+                    <p class="paragraph-table-1">boost</p>
+                  </div>
+                  <div class="cpu-spec">
+                    <p class="paragraph-table-2">up to</p>
+                    <h2 class="h2">128MB</h2>
+                    <p class="paragraph-table-1">cache</p>
+                  </div>
+                </div>
+                <div class="models">
+                  <p class="paragraph-table-3">Models</p>
+                  <p class="paragraph-table-4">7302</p>
+                  <p class="paragraph-table-4">7302P</p>
+                  <p class="paragraph-table-4">7282</p>
+                </div>
+              </div>
+              <div class="tab-pane fade" role="tabpanel" id="_mem-12-core">
+                <div class="specs">
+                  <div class="cpu-spec">
+                    <h2 class="h2">24</h2>
+                    <p class="paragraph-table-1">threads</p>
+                  </div>
+                  <div class="cpu-spec">
+                    <p class="paragraph-table-2">up to</p>
+                    <h2 class="h2">2.6GHz</h2>
+                    <p class="paragraph-table-1">base</p>
+                  </div>
+                  <div class="cpu-spec">
+                    <p class="paragraph-table-2">up to</p>
+                    <h2 class="h2">3.2GHz</h2>
+                    <p class="paragraph-table-1">boost</p>
+                  </div>
+                  <div class="cpu-spec">
+                    <h2 class="h2">64MB</h2>
+                    <p class="paragraph-table-1">cache</p>
+                  </div>
+                </div>
+                <div class="models">
+                  <p class="paragraph-table-3">Models</p>
+                  <p class="paragraph-table-4">7272</p>
+                </div>
+              </div>
+              <div class="tab-pane fade" role="tabpanel" id="_mem-8-core">
+                <div class="specs">
+                  <div class="cpu-spec">
+                    <h2 class="h2">16</h2>
+                    <p class="paragraph-table-1">threads</p>
+                  </div>
+                  <div class="cpu-spec">
+                    <p class="paragraph-table-2">up to</p>
+                    <h2 class="h2">3.2GHz</h2>
+                    <p class="paragraph-table-1">base</p>
+                  </div>
+                  <div class="cpu-spec">
+                    <p class="paragraph-table-2">up to</p>
+                    <h2 class="h2">3.4GHz</h2>
+                    <p class="paragraph-table-1">boost</p>
+                  </div>
+                  <div class="cpu-spec">
+                    <p class="paragraph-table-2">up to</p>
+                    <h2 class="h2">128MB</h2>
+                    <p class="paragraph-table-1">cache</p>
+                  </div>
+                </div>
+                <div class="models">
+                  <p class="paragraph-table-3">Models</p>
+                  <p class="paragraph-table-4">7262</p>
+                  <p class="paragraph-table-4">7252</p>
+                  <p class="paragraph-table-4">7252P</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="{{ '/assets/js/hide-header-title.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/jquery.sticky.js' | relative_url }}"></script>
+
+<script>
+  $(document).ready(function () {
+    $("#sticky-tab").sticky({
+      topSpacing: 70,
+      zIndex: 999,
+    });
+
+    // $(document).on("scroll",onScrollTabLinks);
+    // $(document).on("scroll",onScrollHeader);
+    $(document).on(
+      "click",
+      ".tab-links a[href^='#']:not('.active')",
+      function (e) {
+        e.stopPropagation();
+        e.preventDefault();
+        $(document).off("scroll");
+
+        // $('a').each(function () {
+        //     $(this).removeClass('active');
+        // })
+        // $(this).addClass('active');
+        var target = this.hash,
+          menu = target;
+        $target = $(target);
+        $("html, body")
+          .stop()
+          .animate(
+            {
+              scrollTop: $target.offset().top,
+            },
+            500,
+            "swing",
+            function () {
+              window.location.hash = target;
+              prevScrollPos = window.innerHeight + window.pageYOffset;
+            },
+          );
+        // $(document).on("scroll", onScrollTabLinks);
+        // $(document).on("scroll",onScrollHeader);
+
+        $(this).hide().show(0);
+      },
+    );
+    // .on("click",".tab-links a.active",function(event){
+    //     var list = $(this).closest('ul');
+
+    //     if (list.hasClass('open'))
+    //     $(this).closest("ul").removeClass('open');
+    //   else
+    //     $(this).closest("ul").addClass('open');
+
+    //     if($('.tab-links').hasClass('expand'))
+    //     $('.tab-links').removeClass('expand');
+    //     else
+    //       $('.tab-links').addClass('expand');
+
+    //     event.stopPropagation();
+    //     event.preventDefault();
+    //     $('.tab-links').hide().show(0);
+
+    // });
+
+    // $(document).click(function (event){
+    //   var clickover = $(event.target);
+    //   var _opened = $('.tab-links ul').hasClass('open');
+    //   if(_opened === true && !clickover.hasClass('toggle-nav')){
+    //     $('.tab-links ul').removeClass('open');
+    //     $('.tab-links').removeClass('expand');
+    //   }
+    //   $(this).hide().show(0);
+    // });
+
+    var tabPosition = [];
+    $(".tab-links ul li a").each(function () {
+      tabPosition.push($($(this).attr("href")).position().top);
+    });
+
+    $(window).resize(function () {
+      tabPosition = [];
+      $(".tab-links ul li a").each(function () {
+        tabPosition.push($($(this).attr("href")).position().top);
+      });
+    });
+
+    var prevScrollPos = window.pageYOffset;
+    var lastScrollTop = 0;
+    var delta = 10;
+    var navbarHeight = $(".site-header").first().outerHeight();
+
+    function onScrollHeader(event) {
+      var st = $(this).scrollTop();
+
+      // Make sure they scroll more than delta
+      if (Math.abs(lastScrollTop - st) <= delta) return;
+
+      // If they scrolled down and are past the navbar, add class .nav-up.
+      // This is necessary so you never see what is "behind" the navbar.
+      if (st > lastScrollTop && st > navbarHeight) {
+        // Scroll Down
+
+        if (st + $(window).height() < $(document).height()) {
+          $(".site-header").first().css("top", "-70px");
+          $("#sticky-tab").sticky("update");
+        }
+      } else {
+        // Scroll Up
+
+        $(".site-header").first().css("top", "0px");
+        $("#sticky-tab").sticky("update");
+      }
+
+      lastScrollTop = st;
+      $(".tab-links").hide().show(0);
+
+      // var currentScrollPos = window.pageYOffset;
+      // console.log("prevScroll pos :" + prevScrollPos + "     > currentScrollPos   : " + currentScrollPos);
+      // if(prevScrollPos > currentScrollPos){
+      //  $('.site-header').first().css( "top", "0px")
+      //  if($('.tab-links').hasClass("is_stuck")){
+      //    $('.tab-links').first().css("top","70px");
+      //  }
+      // }
+      // else {
+      //  $('.site-header').first().css("top","-70px")
+      //  if($('.tab-links').hasClass("is_stuck")){
+      //    $('.tab-links').first().css("transition","top 0.3s");
+      //    $('.tab-links').first().css("top","0");
+
+      //  }
+      // }
+      // prevScrollPos = currentScrollPos;
+    }
+    function onScrollTabLinks(event) {
+      var scrollPos = $(document).scrollTop();
+      $(".tab-links ul li a").each(function (index) {
+        var currLink = $(this);
+        var refElement = $(currLink.attr("href"));
+
+        // console.log("start href: " + $(this).attr("href"));
+        // console.log($(currLink.attr("href")).position().top + "<= " + $(document).scrollTop());
+        // var wid = +refElement.position().top+refElement.height();
+        // console.log("position top: " +refElement.position().top + " + " +refElement.height()     + "= " +wid+" > " + scrollPos);
+
+        // if(tabPosition[index] <= scrollPos && tabPosition[index] + refElement.height() > scrollPos){
+        //   $('.tab-links ul li a').removeClass("active");
+        //     currLink.addClass("active");
+        // }
+        // else
+        // {
+        //   currLink.removeClass("active");
+
+        // }
+
+        // if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+        //     $('.tab-links ul li a').removeClass("active");
+        //     currLink.addClass("active");
+        // }
+        // else{
+        //     currLink.removeClass("active");
+        // }
+      });
+      $(".tab-links ul").removeClass("open");
+      $(".tab-links").removeClass("expand");
+      $(".tab-links").hide().show(0);
+    }
+  });
+</script>

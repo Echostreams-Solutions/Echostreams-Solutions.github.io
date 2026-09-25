@@ -1,0 +1,22 @@
+title: EchoStreams
+description: Server and storage solutions for OEM/ODM
+# For a project page (https://USER.github.io/REPO) set baseurl: "/REPO". Leave "" for a user/custom-domain site.
+url: ""
+baseurl: ""
+
+collections:
+  products:
+    output: true
+    permalink: /products/:name/
+
+defaults:
+  - scope: { path: "", type: products }
+    values: { layout: product, bootstrap5: true }
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - scripts
+  - "*.csv"

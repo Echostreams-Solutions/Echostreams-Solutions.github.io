@@ -1,0 +1,18 @@
+{
+  "_comment": "Manual downloads per product, applied by scripts/import_products.py. Key = model (case-insensitive), then resource label -> URL. Replaces any resource with the same label.",
+  "flachesan2n24u-ur": {
+    "Data Sheet": "https://echostreams.blob.core.windows.net/datasheet/DS_FlacheSAN2N24U-UR_E.pdf"
+  },
+  "dss448s-ur": {
+    "Data Sheet": "https://echostreams.blob.core.windows.net/datasheet/DS_DSS448S-UR_E.pdf"
+  },
+  "flachesan1n10u-ur": {
+    "Data Sheet": "https://echostreams.blob.core.windows.net/datasheet/DS_FlacheSAN1N10U-UR_E.pdf"
+  },
+  "flachesan1n36m-ur": {
+    "Data Sheet": "https://echostreams.blob.core.windows.net/datasheet/DS_FlacheSAN1N36M-UR_E.pdf"
+  },
+  "flachesan4n24m-ur": {
+    "Data Sheet": "https://echostreams.blob.core.windows.net/datasheet/DS_FlacheSAN4N24M-UR_E.pdf"
+  }
+}

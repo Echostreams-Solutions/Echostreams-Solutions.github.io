@@ -1,0 +1,54 @@
+<style>
+  .hc { padding: 56px 0 24px; }
+  .hc__head { text-align: center; max-width: 720px; margin: 0 auto 32px; }
+  .hc__head h2 { margin: 0 0 8px; }
+  .hc__head p { margin: 0; color: #6b7280; }
+  .hc__nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 0 0 8px; padding: 0; list-style: none; }
+  .hc__nav a { display: inline-block; padding: 8px 18px; border: 1px solid #0368b3; border-radius: 999px; color: #0368b3; font-weight: 600; font-size: 14px; text-decoration: none; }
+  .hc__nav a:hover { background: #0368b3; color: #fff; }
+  .hc-col { padding: 48px 0; border-top: 1px solid #e5e7eb; }
+  .hc-col:nth-of-type(even) { background: #f8f9fa; }
+  .hc-col__head { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 16px; }
+  .hc-col__head h3 { margin: 0; font-size: 28px; color: #0368b3; }
+  .hc-col__head h3 small { display: block; margin-top: 4px; font-size: 15px; font-weight: 400; color: #343434; }
+  .hc-col__blurb { margin: 8px 0 0; color: #6b7280; max-width: 640px; }
+  .hc-col__links { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  .hc-col__links a { display: inline-block; padding: 7px 16px; border: 1px solid #0368b3; border-radius: 6px; color: #0368b3; font-size: 14px; font-weight: 600; text-decoration: none; }
+  .hc-col__links a:hover { background: #0368b3; color: #fff; }
+  .hc-col__links a.hc-all { background: #0368b3; color: #fff; }
+  .hc-col__links a.hc-all:hover { background: #024f88; border-color: #024f88; }
+</style>
+<section class="hc" id="products">
+  <div class="wrapper wrapper--margins">
+    <div class="hc__head">
+      <h2 class="home-section-title">Our Products</h2>
+      <p>Server and storage platforms for cloud, data center, video, telecom and more &mdash; browse by product family.</p>
+    </div>
+    <ul class="hc__nav">
+      {%- for c in site.data.collections %}
+      <li><a href="#col-{{ c.key }}">{{ c.title }}</a></li>
+      {%- endfor %}
+    </ul>
+  </div>
+  {%- for c in site.data.collections %}
+  {%- assign all = site.products -%}
+  {%- if c.family -%}{%- assign all = all | where: "family", c.family -%}{%- endif -%}
+  {%- if c.cpu -%}{%- assign all = all | where: "cpu", c.cpu -%}{%- endif -%}
+  {%- if c.exclude_cpu -%}{%- assign all = all | where_exp: "p", "p.cpu != c.exclude_cpu" -%}{%- endif -%}
+  <div class="hc-col" id="col-{{ c.key }}">
+    <div class="wrapper wrapper--margins">
+      <div class="hc-col__head">
+        <div>
+          <h3>{{ c.title }}<small>{{ c.subtitle }}</small></h3>
+          <p class="hc-col__blurb">{{ c.blurb }}</p>
+        </div>
+        <div class="hc-col__links">
+          {%- for l in c.links %}<a href="{{ l.url | relative_url }}">{{ l.label }}</a>{% endfor %}
+          <a class="hc-all" href="{% if c.view_all %}{{ c.view_all | relative_url }}{% else %}{{ '/products/' | relative_url }}#{{ c.key }}{% endif %}">View all {{ all.size }} &rarr;</a>
+        </div>
+      </div>
+      {% include product-grid.html family=c.family cpu=c.cpu exclude_cpu=c.exclude_cpu limit=4 %}
+    </div>
+  </div>
+  {%- endfor %}
+</section>

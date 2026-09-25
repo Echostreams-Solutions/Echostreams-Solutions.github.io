@@ -1,0 +1,17 @@
+# Header menu. Family urls point at the family pages; drop intel/amd if a family has only one.
+menu:
+  - label: Products
+    heading: Server Storage
+    url: /server-and-storage-solutions.html
+    families:
+      - { label: "2nd Gen AMD EPYC Server", amd: /2nd-gen-amd-epyc-processors.html }
+      - { label: "HPC GPU Server", amd: /gridstreams-high-performance-computing-server.html }
+      - { label: "Flash Storage Server", intel: /flachestreams-products-intel-processor.html, amd: /flachestreams-products-amd-epyc-processor.html }
+      - { label: "High Availability Server", intel: /durastreams-products-intel-xeon-scalable-processor.html, amd: /durastreams-products-amd-epyc-processor.html }
+      - { label: "High Density Server", intel: /scalestreams-products-intel-scalable-processor.html, amd: /scalestreams-high-density-servers.html }
+      - { label: "General Purpose Server", intel: /omnistreams-general-purpose-servers.html }
+    extra:
+      - { label: "Just a Bunch Of Disks", url: /jbods.html }
+  - { label: About Us, url: /company.html }
+  - { label: Where to Buy, url: /where-to-buy.html }
+  - { label: Contact Us, url: /contact-us.html }

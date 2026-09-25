@@ -1,0 +1,29 @@
+﻿# EchoStreams site (Jekyll)
+
+Built with Jekyll; GitHub Pages builds it automatically (Settings -> Pages -> deploy from branch, root of this folder).
+
+## Layout
+- `_layouts/`, `_includes/` - shared shell (header, footer, page header, product grid)
+- `_data/navigation.yml` - header menu
+- `_products/` - one Markdown file per product (see `example-product.md`)
+- top-level `*.html` - pages (front matter + content)
+
+## Products
+Products are generated from two CSVs in `_source-data/` (Shopify metafield export + the spec sheet):
+edit the CSV, then run `python scripts/import_products.py` from this folder. It rewrites `_products/*.md`
+(one per model that is also listed in `_source-data/products_export_*.csv`; other spec rows are skipped). `jbods.html` lists `cpu: jbod` items;
+family pages list by `family` + `cpu`.
+For a one-off product, copy `_products/example-product.md` (it is unpublished) and remove `published: false`.
+Images: set `image:` per product (all use `assets/img/no-image.svg` for now). Download names (data sheet, BIOS,
+firmware...) are shown as text; there are no file URLs in the data yet.
+
+## Local preview
+Requires Ruby (tested on 4.0): `bundle install` then `bundle exec jekyll serve` (http://localhost:4000).
+The Gemfile uses Jekyll 4 because the `github-pages` gem does not run on Ruby 3.2+. GitHub Pages builds with its own Jekyll; the site only uses features common to both.
+
+## Still to do
+- Home banners `assets/img/slide-1..5.svg` are placeholders. The logo loads from the Shopify CDN.
+- Contact form and newsletter are inert; wire them to a form service.
+- Links to pages not converted (Support, Careers, Privacy Policy, JBODs) point at https://echostreams.com.
+- If the site is a GitHub project page, set `baseurl: "/REPO"` in `_config.yml`.
+

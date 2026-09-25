@@ -1,0 +1,88 @@
+<style>
+  .site-header sup { font-size: 70%; }
+
+  /* Products mega-dropdown: every family shows its Intel / AMD links directly (no hover overlay) */
+  .site-header--classic .site-nav__dropdown.mega { width: 440px; margin-left: -220px; }
+  .site-header--classic .site-nav__dropdown.mega > div { padding: 0; overflow: hidden; }
+  .mega-heading { display: flex; align-items: center; justify-content: space-between; padding: 12px 22px; color: #fff; font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; border-bottom: 1px solid rgba(255, 255, 255, .35); }
+  .mega-heading:hover { color: #fff; background: rgba(255, 255, 255, .12); }
+  .mega-list { list-style: none; margin: 0; padding: 4px 0; text-align: left; }
+  .site-header--classic .site-nav__dropdown .mega-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 0; padding: 9px 22px; border-bottom: 1px solid rgba(255, 255, 255, .12); }
+  .site-header--classic .site-nav__dropdown .mega-row:last-child { border-bottom: 0; }
+  .mega-name { color: #fff; font-size: 14px; line-height: 1.3; }
+  .mega-links { display: flex; flex-shrink: 0; gap: 8px; }
+  .site-header--classic .site-nav__dropdown .mega-links a { display: inline-block; padding: 3px 14px; border: 1px solid rgba(255, 255, 255, .75); border-radius: 999px; background: transparent; color: #fff; font-size: 12px; font-weight: 700; line-height: 18px; letter-spacing: .04em; text-transform: uppercase; }
+  .site-header--classic .site-nav__dropdown .mega-links a:hover { background: #fff; color: #0368b3; }
+
+  /* Mobile drawer: full-width rows, large touch targets, clearly visible white-on-blue buttons */
+  @media only screen and (max-width: 767px) {
+    .site-header .site-nav__dropdown.mega { width: auto; margin: 0; padding-top: 0; }
+    .site-header .site-nav__dropdown.mega > div { border: 0; background: transparent; padding: 0 0 8px; }
+    .site-header .mega-heading { padding: 16px 20px; font-size: 14px; color: #fff !important; border-bottom: 1px solid rgba(255, 255, 255, .5); }
+    .site-header .mega-list { padding: 0; }
+    .site-header .site-nav__dropdown .mega-row { display: block; margin: 0; padding: 16px 20px; border-bottom: 1px solid rgba(255, 255, 255, .25); }
+    .site-header .mega-name { display: block; margin-bottom: 10px; color: #fff; font-size: 17px; font-weight: 600; line-height: 1.3; }
+    .site-header .mega-links { display: flex; gap: 10px; }
+    .site-header .site-nav__dropdown .mega-links a { flex: 0 1 calc(50% - 5px); min-height: 46px; padding: 0 12px; box-sizing: border-box; border: 2px solid #fff; border-radius: 8px; background: rgba(255, 255, 255, .14); color: #fff !important; font-size: 15px; font-weight: 700; line-height: 42px; text-align: center; letter-spacing: .05em; }
+    .site-header .site-nav__dropdown .mega-links a:active,
+    .site-header .site-nav__dropdown .mega-links a:hover { background: #fff; color: #0368b3 !important; }
+  }
+</style>
+
+<div data-section-id="header" data-section-type="header-section">
+  <header class="site-header site-header--classic animate is-light sticky active" role="banner" data-menu-style="classic">
+    <div class="wrapper">
+      {% if page.template == 'index' %}<h1 class="site-header__logo mt-2" itemscope itemtype="http://schema.org/Organization">{% else %}<div class="h1 site-header__logo" itemscope itemtype="http://schema.org/Organization">{% endif %}
+        <a href="{{ '/' | relative_url }}" itemprop="url" class="site-header__logo-link"><img src="https://cdn.shopify.com/s/files/1/0073/8623/4950/t/4/assets/logo.png?9686438060402706511" alt="EchoStreams" itemprop="logo" style="max-height:50px;width:auto;"></a>
+      {% if page.template == 'index' %}</h1>{% else %}</div>{% endif %}
+      <nav class="nav-bar" id="navBar" role="navigation">
+        <button id="menu-closer" class="lines-button lines-button--close" aria-controls="navBar" aria-expanded="true">
+          <span class="fallback-text">Close menu</span>
+          <span class="lines" aria-hidden="true"></span>
+        </button>
+        <ul class="site-nav" id="AccessibleNav">
+          {% for item in site.data.navigation.menu %}
+          {% if item.families %}
+          <li class="site-nav--has-dropdown" aria-haspopup="true">
+            <button class="site-nav__link" aria-expanded="false">
+              {{ item.label }}
+              <span class="icon icon-plus" aria-hidden="true"><svg class=" svg plus" xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" width="19" height="19" viewBox="0 0 19 19" enable-background="new 0 0 19 19" xml:space="preserve" aria-hidden="true"><path d="M11 19c-1 0-2 0-3 0 0-2.6 0-5.2 0-8 -3.1 0-5.5 0-8 0 0-1 0-2 0-3 2.6 0 5.2 0 8 0 0-3.1 0-5.5 0-8 1 0 2 0 3 0 0 2.6 0 5.2 0 8 3.1 0 5.5 0 8 0 0 1 0 2 0 3 -2.6 0-5.2 0-8 0C11 14.1 11 16.5 11 19z"/></svg></span>
+              <span class="icon icon-minus" aria-hidden="true"><svg class=" svg minus" xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" width="19" height="19" viewBox="0 0 19 19" enable-background="new 0 0 19 19" xml:space="preserve" aria-hidden="true"><path d="M8 8C5.2 8 2.6 8 0 8c0 1 0 2 0 3 2.5 0 4.9 0 8 0 2.8 0 8.4 0 11 0 0-1 0-2 0-3C16.5 8 11.1 8 8 8z"/></svg></span>
+            </button>
+            <ul class="site-nav__dropdown mega">
+              <div>
+                <a href="{{ item.url | relative_url }}" class="mega-heading" style="color: white !important;">{{ item.heading }} <span aria-hidden="true">&rarr;</span></a>
+                <ul class="mega-list">
+                  {% for fam in item.families %}
+                  <li class="mega-row">
+                    <span class="mega-name">{{ fam.label }}</span>
+                    <span class="mega-links">
+                      {% if fam.intel %}<a href="{{ fam.intel | relative_url }}">Intel</a>{% endif %}
+                      {% if fam.amd %}<a href="{{ fam.amd | relative_url }}">AMD</a>{% endif %}
+                    </span>
+                  </li>
+                  {% endfor %}
+                  {% for x in item.extra %}
+                  <li class="mega-row">
+                    <span class="mega-name">{{ x.label }}</span>
+                    <span class="mega-links"><a href="{{ x.url | relative_url }}">View</a></span>
+                  </li>
+                  {% endfor %}
+                </ul>
+              </div>
+              <span class="arrow">&nbsp;</span>
+            </ul>
+          </li>
+          {% else %}
+          <li><a href="{{ item.url | relative_url }}" class="site-nav__link">{{ item.label }}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </nav>
+      <button id="menu-opener" class="lines-button" aria-controls="navBar" aria-expanded="false">
+        <span class="fallback-text">Open menu</span>
+        <span class="lines" aria-hidden="true"></span>
+      </button>
+    </div>
+  </header>
+</div>

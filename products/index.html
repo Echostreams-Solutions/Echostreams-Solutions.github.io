@@ -1,0 +1,12 @@
+---
+layout: page
+title: Products
+permalink: /products/
+template: collection
+---
+<div class="wrapper wrapper--margins">
+  {% for c in site.data.collections %}
+  <h2 id="{{ c.key }}" style="margin-top: 40px">{{ c.title }} <small style="font-size: 16px; color: #6b7280">{{ c.subtitle }}</small></h2>
+  {% include product-grid.html family=c.family cpu=c.cpu exclude_cpu=c.exclude_cpu %}
+  {% endfor %}
+</div>

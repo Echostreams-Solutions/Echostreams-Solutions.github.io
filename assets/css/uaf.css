@@ -1,0 +1,48 @@
+			@font-face {
+				font-family: 'Gabriola';
+				font-style: normal;
+				src: url('../fonts/150821102443Gabriola.eot');
+				src: local('Gabriola'), url('../fonts/3Gabriola.eot') format('embedded-opentype'), url('../fonts/150821102443Gabriola.woff') format('woff');
+			}
+            
+            .Gabriola{font-family: 'Gabriola' !important;}
+            
+					@font-face {
+				font-family: 'Gotham Book';
+				font-style: normal;
+				src: url('../fonts/150821104333Gotham-Book.eot');
+				src: local('Gotham Book'), url('../fonts/150821104333Gotham-Book.eot') format('embedded-opentype'), url('../fonts/150821104333Gotham-Book.woff') format('woff');
+			}
+            
+            .Gotham Book{font-family: 'Gotham Book' !important;}
+            
+					@font-face {
+				font-family: 'Gotham Medium';
+				font-style: normal;
+				src: url('../fonts/150821104529Gotham-Medium.eot');
+				src: local('Gotham Medium'), url('../fonts/150821104529Gotham-Medium.eot') format('embedded-opentype'), url('../fonts/150821104529Gotham-Medium.woff') format('woff');
+			}
+            
+            .Gotham Medium{font-family: 'Gotham Medium' !important;}
+            
+						h1, h2, h3, h4, h5{
+					font-family: 'Gotham Book' !important;
+						font-weight: 600 !important;  
+				}
+						p{
+					font-family: 'Gotham Book' !important;
+				}
+						body{
+					font-family: 'Gotham Book' !important;
+				}
+						nav a{
+					font-family: 'Gotham Book' !important;
+				}
+						table h5{
+					font-family: 'Gotham Book' !important;
+				}
+
+					select, input, option, textarea {
+						font-family: 'Gotham Book' !important;
+					}
+		

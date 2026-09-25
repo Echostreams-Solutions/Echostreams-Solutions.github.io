@@ -1,0 +1,53 @@
+# Product collections shown on the home page (in this order).
+# `family` matches a product's family; `cpu` (used by JBODs) matches its cpu.
+# `exclude_cpu` keeps JBODs out of the family collections. `links` are the buttons under each heading.
+- key: flachestreams
+  family: flachestreams
+  exclude_cpu: jbod
+  title: FlacheStreams
+  subtitle: Flash Storage Servers
+  blurb: All-flash NVMe and SAS/SATA arrays built for maximum throughput and IOPS.
+  links:
+    - { label: Intel, url: /flachestreams-products-intel-processor.html }
+    - { label: AMD EPYC, url: /flachestreams-products-amd-epyc-processor.html }
+- key: durastreams
+  family: durastreams
+  exclude_cpu: jbod
+  title: DuraStreams
+  subtitle: High Availability Servers
+  blurb: Dual-node, cluster-in-a-box systems with full redundancy for 24/7 uptime.
+  links:
+    - { label: Intel, url: /durastreams-products-intel-xeon-scalable-processor.html }
+    - { label: AMD EPYC, url: /durastreams-products-amd-epyc-processor.html }
+- key: scalestreams
+  family: scalestreams
+  exclude_cpu: jbod
+  title: ScaleStreams
+  subtitle: High Density Servers
+  blurb: Large-capacity storage servers that pack more drives into every rack unit.
+  links:
+    - { label: Intel, url: /scalestreams-products-intel-scalable-processor.html }
+    - { label: AMD EPYC, url: /scalestreams-high-density-servers.html }
+- key: omnistreams
+  family: omnistreams
+  exclude_cpu: jbod
+  title: OmniStreams
+  subtitle: General Purpose Servers
+  blurb: Versatile, cost-effective servers for virtualization, databases and everyday workloads.
+  links:
+    - { label: Intel, url: /omnistreams-general-purpose-servers.html }
+- key: gridstreams
+  family: gridstreams
+  exclude_cpu: jbod
+  title: GridStreams
+  subtitle: HPC GPU Servers
+  blurb: GPU-dense AMD EPYC systems for AI, machine learning and high performance computing.
+  links:
+    - { label: AMD EPYC, url: /gridstreams-high-performance-computing-server.html }
+- key: jbods
+  cpu: jbod
+  title: JBODs
+  subtitle: Just a Bunch of Disks
+  blurb: 12G SAS dual-expander expansion enclosures with hot-swap bays.
+  view_all: /jbods.html
+  links: []
