@@ -1,0 +1,17 @@
+---
+layout: null
+sitemap: false
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{%- assign entries = site.pages | concat: site.products | sort: "url" -%}
+{%- for p in entries %}
+  {%- if p.sitemap == false or p.noindex or p.url == "/404.html" %}{% continue %}{% endif %}
+  <url>
+    <loc>{{ p.url | replace: "/index.html", "/" | absolute_url | xml_escape }}</loc>
+    {%- if p.lastmod %}
+    <lastmod>{{ p.lastmod | date_to_xmlschema }}</lastmod>
+    {%- endif %}
+  </url>
+{%- endfor %}
+</urlset>

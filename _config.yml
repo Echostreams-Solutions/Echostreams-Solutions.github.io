@@ -3,7 +3,7 @@ tagline: "OEM/ODM Server & Storage Solutions"
 description: "OEM/ODM server and storage systems: flash, high availability, high density, general purpose and GPU servers on Intel Xeon and AMD EPYC."
 og_image: /assets/img/og-default.png
 # For a project page (https://USER.github.io/REPO) set baseurl: "/REPO". Leave "" for a user/custom-domain site.
-url: ""
+url: "https://echostreams.com"
 baseurl: ""
 
 collections:
