@@ -90,6 +90,23 @@ def echostreams_datasheet(model):
 _ov = SITE / "_source-data" / "resource_overrides.json"
 OVERRIDES = {k.lower(): v for k, v in json.loads(_ov.read_text(encoding="utf-8")).items() if not k.startswith("_")} if _ov.exists() else {}
 
+def make_description(model, full_title, body, sections):
+    """Meta description (<=155 chars): the first key features from the product body, else the name + processor."""
+    lis = [re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", x))).strip() for x in re.findall(r"<li[^>]*>(.*?)</li>", body, re.S)]
+    lis = [x.rstrip(".;, ") for x in lis if x]
+    if lis:
+        text = model + " - " + lis[0]
+        for x in lis[1:4]:  # add further whole features while they fit
+            if len(text) + 2 + len(x) <= 155: text += "; " + x
+            else: break
+    else:
+        proc = next((v for sec in sections for k, v in sections[sec] if k == "Processor"), "")
+        text = (full_title or model) + ". " + (re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", proc)).strip() + ". " if proc else "") + "Specifications, downloads and images."
+    text = re.sub(r"\s+", " ", text).strip()
+    if len(text) > 155:
+        text = text[:155].rsplit(" ", 1)[0].rstrip(",;:- ") + "..."
+    return text
+
 IMG_ROOT = SITE / "assets" / "img"
 img_dirs = sorted(d.name for d in IMG_ROOT.iterdir() if d.is_dir())
 known_handles = sorted(export_handles)  # only products listed in products_export_*.csv are published
@@ -193,6 +210,9 @@ for i, r in enumerate(rows, 1):
     ft = full_titles.get(norm(model))
     if ft: fm["full_title"] = ft
     else: no_export.append(model)
+    fm["description"] = make_description(model, ft, body, sections)
+    if (SITE / "assets" / "img" / "og" / (slug(model) + ".jpg")).exists():
+        fm["og_image"] = "/assets/img/og/" + slug(model) + ".jpg"  # made by scripts/make_og_images.py
     fm["spec_sections"] = [{"title": t, "rows": sections[t]} for t in sorted(order, key=lambda t: list(SECTIONS.values()).index(t))]
     fm["resources"] = resources
     lines = ["---"] + [f"{k}: {json.dumps(v, ensure_ascii=False)}" for k, v in fm.items()] + ["---", "", body, ""]
