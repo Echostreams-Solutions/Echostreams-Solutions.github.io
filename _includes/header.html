@@ -33,7 +33,7 @@
   <header class="site-header site-header--classic animate is-light sticky active" role="banner" data-menu-style="classic">
     <div class="wrapper">
       {% if page.template == 'index' %}<h1 class="site-header__logo mt-2" itemscope itemtype="http://schema.org/Organization">{% else %}<div class="h1 site-header__logo" itemscope itemtype="http://schema.org/Organization">{% endif %}
-        <a href="{{ '/' | relative_url }}" itemprop="url" class="site-header__logo-link"><img src="https://cdn.shopify.com/s/files/1/0073/8623/4950/t/4/assets/logo.png?9686438060402706511" alt="EchoStreams" itemprop="logo" style="max-height:50px;width:auto;"></a>
+        <a href="{{ '/' | relative_url }}" itemprop="url" class="site-header__logo-link"><img src="https://cdn.shopify.com/s/files/1/0073/8623/4950/t/4/assets/logo.png?9686438060402706511" alt="EchoStreams" itemprop="logo" style="max-height:70px;width:auto;"></a>
       {% if page.template == 'index' %}</h1>{% else %}</div>{% endif %}
       <nav class="nav-bar" id="navBar" role="navigation">
         <button id="menu-closer" class="lines-button lines-button--close" aria-controls="navBar" aria-expanded="true">
@@ -54,7 +54,7 @@
                 <a href="{{ item.url | relative_url }}" class="mega-heading" style="color: white !important;">{{ item.heading }} <span aria-hidden="true">&rarr;</span></a>
                 <ul class="mega-list">
                   {% for fam in item.families %}
-                  <li class="mega-row">
+                  <li class="mega-row" id="mega-row-{{ fam.label | slugify }}">
                     <span class="mega-name">{{ fam.label }}</span>
                     <span class="mega-links">
                       {% if fam.intel %}<a href="{{ fam.intel | relative_url }}">Intel</a>{% endif %}
