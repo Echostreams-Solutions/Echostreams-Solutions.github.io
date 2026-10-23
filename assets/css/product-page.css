@@ -1,0 +1,176 @@
+@charset "UTF-8";
+.tabnav-title {
+  margin-top: 20px;
+}
+
+.tab-container {
+  width: 100%;
+  display: inline-block;
+  text-align: left;
+}
+
+.tab-links {
+  -webkit-transition: top 0.2s;
+  transition: top 0.2s;
+  background: #0368b3;
+  z-index: 999;
+  padding: 15px 0;
+  position: relative;
+  height: 70px;
+  margin-right: -100%;
+  margin-left: -100%;
+  padding-left: 100%;
+}
+.tab-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.tab-links ul li {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0px 5px;
+  list-style: none;
+  border-bottom: none;
+  background-color: #0368b3;
+}
+.tab-links ul li a {
+  padding: 9px 15px;
+  display: block;
+  background: #0368b3;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  border-radius: 5px;
+}
+.tab-links ul li a:hover, .tab-links ul li a.active:hover {
+  background: white;
+  color: #0368b3;
+}
+.tab-links ul li a.active {
+  text-decoration: underline;
+}
+@media screen and (max-width: 680px) {
+  .tab-links {
+    padding-right: 100%;
+  }
+  .tab-links.expand {
+    height: 176px !important;
+  }
+  .tab-links ul {
+    border-bottom: 0;
+    overflow: hidden;
+    position: relative;
+    background: #0368b3;
+  }
+  .tab-links ul::before {
+    content: "☰"; /* "Three Line Menu Navicon" shows up */
+    position: absolute;
+    top: 9px;
+    z-index: 2;
+    pointer-events: none;
+    color: white;
+  }
+  .tab-links ul.open a {
+    position: relative;
+    display: block;
+    height: 40px;
+    width: 600px;
+  }
+  .tab-links li {
+    display: block; /* One link per "row" */
+    height: 40px;
+  }
+  .tab-links a {
+    position: absolute; /* Stack links on top of each other */
+    padding: 9px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+  }
+  .tab-links a.active {
+    border: 0;
+    z-index: 1; /* Active tab is on top */
+    background: #0368b3;
+    color: white;
+  }
+  .tab-links a:hover, .tab-links a.active:hover {
+    background: #0368b3 !important;
+    color: white !important;
+  }
+}
+
+.system-class {
+  overflow: hidden;
+}
+
+.spec-option {
+  margin-top: 20px;
+}
+.spec-option td {
+  border: 1px solid #ccc;
+}
+.spec-option td:first-child {
+  font-weight: bold;
+  width: 30%;
+  border: 1px solid #ccc;
+  vertical-align: middle;
+}
+.spec-option tr:nth-child(odd) {
+  background: #eee;
+}
+.spec-option th {
+  border: 1px solid #666;
+  background: #666;
+  color: white;
+  font-weight: bold;
+}
+
+.spec-select {
+  margin-top: 20px;
+  border: 2px solid #ccc;
+  vertical-align: middle;
+}
+.spec-select td {
+  border: 1px solid #ccc;
+}
+.spec-select td:first-child {
+  width: 30%;
+}
+
+@media only screen and (max-width: 680px) {
+  .spec-option td {
+    width: 100%;
+    position: relative;
+    border: 1px solid #ccc;
+    border-top: none;
+    display: block;
+  }
+  .spec-option td:first-child {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-bottom: none;
+  }
+  .spec-option th {
+    border: 1px solid #ccc;
+  }
+  .spec-select tr {
+    border: 1px solid #ccc;
+    border-bottom: none;
+  }
+  .spec-select tr:last-child {
+    border-bottom: 1px solid #ccc;
+  }
+  .spec-select td:first-child {
+    border: none;
+  }
+  .spec-select td {
+    width: 100%;
+    position: relative;
+    border: none;
+    display: block;
+  }
+}

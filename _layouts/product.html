@@ -1,0 +1,100 @@
+---
+layout: default
+---
+{% include page-header.html parent="Products" parent_url="/products/" %}
+<style>
+  .pd { --bs-primary: #0368b3; --bs-primary-rgb: 3, 104, 179; --bs-link-color: #0368b3; --bs-link-hover-color: #024f88; font-size: 15px; }
+  .pd .btn { text-transform: none; letter-spacing: normal; border-radius: .5rem; padding: .6rem 1.2rem; font-weight: 600; }
+  .pd .btn-primary { background: #0368b3; border-color: #0368b3; color: #fff; }
+  .pd .btn-primary:hover { background: #024f88; border-color: #024f88; }
+  .pd .btn-outline-primary { color: #0368b3; border-color: #0368b3; background: transparent; }
+  .pd .btn-outline-primary:hover { background: #0368b3; color: #fff; }
+  .pd .badge { font-size: .75rem; letter-spacing: .04em; text-transform: uppercase; }
+  .pd .lead { font-size: 1.1rem; color: #495057; }
+  .pd .product-body ul { list-style: disc; padding-left: 1.25rem; margin: .75rem 0; }
+  .pd .product-body li { margin: .3rem 0; }
+  .pd .nav, .pd .nav li { list-style: none; margin-left: 0; }
+  .pd .nav { padding-left: 0; margin-left: 0; margin-right: 0; }
+  .pd .nav-tabs .nav-link { font-family: inherit; font-size: 1rem; line-height: 1.5; padding: .6rem 1.2rem; }
+  .pd .nav-tabs .nav-link { color: #495057; font-weight: 600; text-transform: none; }
+  .pd .nav-tabs .nav-link.active { color: #0368b3; border-bottom-color: #fff; }
+  .pd .card { border-radius: .75rem; overflow: hidden; }
+  .pd .card-header { background: #0368b3; color: #fff; font-weight: 600; letter-spacing: .02em; }
+  .pd table { margin: 0; font-size: .95rem; }
+  .pd th { width: 24%; color: #343a40; text-transform: none; font-weight: 600; }
+  .pd td, .pd th { padding: .7rem 1rem; vertical-align: top; }
+</style>
+{%- assign datasheet = "" -%}
+{%- for r in page.resources %}{% if r.label == "Data Sheet" and r.links %}{% assign datasheet = r.links.first.url %}{% endif %}{% endfor %}
+<div class="pd">
+  <div class="container py-5">
+    <div class="row g-5 align-items-start">
+      <div class="col-lg-6">{% include product-carousel.html %}</div>
+      <div class="col-lg-6">
+        <div class="mb-3">
+          <span class="badge text-bg-primary">{{ page.family }}</span>
+          {% if page.cpu %}<span class="badge text-bg-secondary">{% if page.cpu == 'jbod' %}JBOD{% else %}{{ page.cpu }}{% endif %}</span>{% endif %}
+        </div>
+        {% if page.full_title %}<p class="lead fw-semibold">{{ page.full_title }}</p>{% elsif page.summary %}<p class="lead fw-semibold">{{ page.summary }}</p>{% endif %}
+        <div class="product-body mb-4">{{ content }}</div>
+        <div class="d-flex flex-wrap gap-2">
+          <a class="btn btn-primary" href="{{ '/contact-us.html' | relative_url }}">Contact us about this product</a>
+          {% if datasheet != "" %}<a class="btn btn-outline-primary" href="{{ datasheet }}" target="_blank" rel="noopener">Download data sheet</a>{% endif %}
+          {% if page.link %}<a class="btn btn-outline-primary" href="{{ page.link }}">{{ page.link_text | default: "Where to buy" }}</a>{% endif %}
+        </div>
+      </div>
+    </div>
+
+    <ul class="nav nav-tabs mt-5" id="pdTabs" role="tablist">
+      <li class="nav-item" role="presentation"><button class="nav-link active" id="specs-tab" data-bs-toggle="tab" data-bs-target="#specs" type="button" role="tab" aria-controls="specs" aria-selected="true">Specifications</button></li>
+      {%- if page.resources and page.resources.size > 0 %}
+      <li class="nav-item" role="presentation"><button class="nav-link" id="downloads-tab" data-bs-toggle="tab" data-bs-target="#downloads" type="button" role="tab" aria-controls="downloads" aria-selected="false">Downloads</button></li>
+      {%- endif %}
+    </ul>
+    <div class="tab-content pt-4">
+      <div class="tab-pane fade show active" id="specs" role="tabpanel" aria-labelledby="specs-tab" tabindex="0">
+        {%- for section in page.spec_sections %}
+        <div class="card shadow-sm mb-4">
+          <div class="card-header">{{ section.title }}</div>
+          <div class="table-responsive">
+            <table class="table table-striped table-hover mb-0">
+              <tbody>
+                {%- for row in section.rows %}
+                <tr><th scope="row">{{ row[0] }}</th><td>{{ row[1] }}</td></tr>
+                {%- endfor %}
+              </tbody>
+            </table>
+          </div>
+        </div>
+        {%- else %}
+        <p class="text-muted">Specifications coming soon.</p>
+        {%- endfor %}
+      </div>
+      {%- if page.resources and page.resources.size > 0 %}
+      <div class="tab-pane fade" id="downloads" role="tabpanel" aria-labelledby="downloads-tab" tabindex="0">
+        <div class="card shadow-sm">
+          <div class="card-header">Downloads</div>
+          <div class="table-responsive">
+            <table class="table table-striped table-hover mb-0">
+              <tbody>
+                {%- for r in page.resources %}
+                <tr>
+                  <th scope="row">{{ r.label }}</th>
+                  <td>
+                    {%- if r.links %}
+                      {%- for l in r.links %}
+                    <a class="d-block" href="{{ l.url }}" target="_blank" rel="noopener"><i class="fa fa-download me-1" aria-hidden="true"></i>{% if r.links.size == 1 %}{{ r.name }}{% else %}{{ l.label }}{% endif %}</a>
+                      {%- endfor %}
+                    {%- else %}<span class="text-muted">{{ r.name }}</span>{% endif -%}
+                  </td>
+                </tr>
+                {%- endfor %}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      {%- endif %}
+    </div>
+  </div>
+</div>

@@ -1,0 +1,9 @@
+<div class="header__custom display-table parallax-bg">
+  <div class="display-table-cell prlx-txt">
+    <div class="premio-breadcrumb-outer-div"><div id="premio-breadcrumb"><a href="{{ '/' | relative_url }}">Home</a>{% if include.parent %} &rsaquo; <a href="{{ include.parent_url | relative_url }}">{{ include.parent }}</a>{% endif %} &rsaquo; {{ page.title }}</div></div>
+    <div class="wrapper wrapper--margins header-title">
+      <h1 itemprop="name">{{ page.title }}</h1>
+    </div>
+  </div>
+  <span class="prlx-bg" style="background-color: #f9f9f9"></span>
+</div>

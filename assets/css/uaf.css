@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+h1, h2, h3, h4, h5{
+					font-family: 'Montserrat' !important;
+						font-weight: 600 !important;  
+				}
+						p{
+					font-family: 'Montserrat' !important;
+				}
+						body{
+					font-family: 'Montserrat' !important;
+				}
+						nav a{
+					font-family: 'Montserrat' !important;
+				}
+						table h5{
+					font-family: 'Montserrat' !important;
+				}
+
+					select, input, option, textarea {
+						font-family: 'Montserrat' !important;
+					}
+		

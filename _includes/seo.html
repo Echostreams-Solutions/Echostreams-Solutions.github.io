@@ -1,0 +1,45 @@
+{%- comment -%}
+  Per-page SEO. Front matter (all optional):
+    seo_title    full <title> (default: "<title> | <site title>", home: "<site title> - <tagline>", products: full name)
+    description  meta description (default: site.description), keep it 120-160 characters
+    og_image     social share image path, 1200x630 recommended (default: the product image, else site.og_image)
+    noindex      true to keep a page out of search results
+  Set `url:` in _config.yml so canonical/og:url/og:image become absolute URLs.
+{%- endcomment -%}
+{%- if page.seo_title -%}
+  {%- assign _title = page.seo_title -%}
+{%- elsif page.home -%}
+  {%- assign _title = site.title | append: " - " | append: site.tagline -%}
+{%- elsif page.layout == "product" -%}
+  {%- assign _label = "" -%}
+  {%- for c in site.data.collections -%}
+    {%- if page.cpu == "jbod" and c.cpu == "jbod" -%}{%- assign _label = "JBOD Expansion Storage" -%}
+    {%- elsif page.cpu != "jbod" and c.family == page.family -%}{%- assign _label = c.title | append: " " | append: c.subtitle -%}{%- endif -%}
+  {%- endfor -%}
+  {%- assign _title = page.title | append: " - " | append: _label | append: " | " | append: site.title -%}
+{%- else -%}
+  {%- assign _title = page.title | append: " | " | append: site.title -%}
+{%- endif -%}
+{%- assign _desc = page.description | default: site.description | strip_html | normalize_whitespace | truncate: 160 -%}
+{%- assign _img = page.og_image | default: page.image -%}
+{%- if _img == nil or _img == "" or _img contains ".svg" -%}{%- assign _img = site.og_image -%}{%- endif -%}
+<title>{{ _title | escape }}</title>
+<meta name="description" content="{{ _desc | escape }}">
+{%- if page.noindex %}
+<meta name="robots" content="noindex, follow">
+{%- endif %}
+{%- if site.url != "" %}
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+{%- endif %}
+<link rel="icon" type="image/png" href="{{ '/assets/img/favicon.png' | relative_url }}">
+<meta property="og:site_name" content="{{ site.title | escape }}">
+<meta property="og:type" content="{% if page.layout == 'product' %}product{% else %}website{% endif %}">
+<meta property="og:title" content="{{ _title | escape }}">
+<meta property="og:description" content="{{ _desc | escape }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:image" content="{{ _img | absolute_url }}">
+<meta property="og:image:alt" content="{{ page.title | escape }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ _title | escape }}">
+<meta name="twitter:description" content="{{ _desc | escape }}">
+<meta name="twitter:image" content="{{ _img | absolute_url }}">

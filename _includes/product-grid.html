@@ -1,0 +1,40 @@
+{%- comment -%}
+  Usage: {% include product-grid.html family="durastreams" cpu="amd" %}
+  Optional params: family, cpu, exclude_cpu (drop one cpu value, e.g. jbod), slugs (comma-separated product file names
+  to show only those), limit (max cards)
+{%- endcomment -%}
+{%- assign items = site.products | sort: "order" -%}
+{%- if include.family -%}{%- assign items = items | where: "family", include.family -%}{%- endif -%}
+{%- if include.cpu -%}{%- assign items = items | where: "cpu", include.cpu -%}{%- endif -%}
+{%- if include.exclude_cpu -%}{%- assign items = items | where_exp: "p", "p.cpu != include.exclude_cpu" -%}{%- endif -%}
+{%- if include.slugs -%}{%- assign wanted = include.slugs | split: "," -%}{%- assign items = items | where_exp: "p", "wanted contains p.slug" -%}{%- endif -%}
+{%- if include.limit -%}{%- assign items = items | slice: 0, include.limit -%}{%- endif -%}
+<style>
+  .echo-products { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 24px; margin: 24px 0; }
+  .echo-products--cols { grid-template-columns: repeat(4, 1fr); }
+  @media (max-width: 991px) { .echo-products--cols { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 480px) { .echo-products--cols { grid-template-columns: 1fr; } }
+  .echo-product { display: flex; flex-direction: column; background: #fff; border: 1px solid #e5e7eb; border-radius: 12px; overflow: hidden; transition: box-shadow .2s, transform .2s; }
+  .echo-product:hover { box-shadow: 0 8px 24px rgba(3,104,179,.15); transform: translateY(-3px); }
+  .echo-product > a { display: block; color: inherit; text-decoration: none; }
+  .echo-product .thumb { aspect-ratio: 4 / 3; background: #f8f9fa; padding: 12px; display: flex; align-items: center; justify-content: center; }
+  .echo-product img { max-width: 100%; max-height: 100%; object-fit: contain; }
+  .echo-product .info { padding: 14px 16px 16px; text-align: left; }
+  .echo-product h6 { margin: 0; font-size: 16px; color: #0368b3; }
+  .echo-product small { display: block; margin-top: 6px; font-size: 12px; line-height: 1.4; color: #6b7280; }
+</style>
+<div class="echo-products{% if include.limit %} echo-products--cols{% endif %}">
+  {%- for p in items %}
+  <div class="echo-product">
+    <a href="{{ p.url | relative_url }}">
+      <div class="thumb"><img src="{{ p.image | default: '/assets/img/no-image.svg' | relative_url }}" alt="{{ p.title }}" loading="lazy"></div>
+      <div class="info">
+        <h6>{{ p.title }}</h6>
+        {%- if p.full_title %}<small>{{ p.full_title | remove_first: p.title | strip | truncate: 90 }}</small>{% endif %}
+      </div>
+    </a>
+  </div>
+  {%- else %}
+  <p>Product listings coming soon. <a href="{{ '/contact-us.html' | relative_url }}">Contact us</a> for details.</p>
+  {%- endfor %}
+</div>

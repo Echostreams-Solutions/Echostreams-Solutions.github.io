@@ -1,0 +1,573 @@
+Handle,Title,Body (HTML),Vendor,Product Category,Type,Tags,Published,Option1 Name,Option1 Value,Option1 Linked To,Option2 Name,Option2 Value,Option2 Linked To,Option3 Name,Option3 Value,Option3 Linked To,Variant SKU,Variant Grams,Variant Inventory Tracker,Variant Inventory Qty,Variant Inventory Policy,Variant Fulfillment Service,Variant Price,Variant Compare At Price,Variant Requires Shipping,Variant Taxable,Unit Price Total Measure,Unit Price Total Measure Unit,Unit Price Base Measure,Unit Price Base Measure Unit,Variant Barcodes,Image Src,Image Position,Image Alt Text,Gift Card,SEO Title,SEO Description,Variant Image,Variant Weight Unit,Variant Tax Code,Cost per item,Status
+flachesan4n24m-ur,FLACHESAN4N24M-UR 2ND GEN AMD EPYC UP Server 24 bay,"<h2>Key Features</h2>
+<ul>
+<li>Storage server supports Single Socket 2nd Gen AMD EPYC up to 64 cores Single/Multi NUMA domain</li>
+<li>Portable tower with 24x M.2 or NF1 Drives (Rack-mount option available)</li>
+<li>Supports PCIe GEN 4; up to 4TB DDR4 RAM</li>
+<li>Ability to power on/off M.2/NF1 drives individually</li>
+<li>Supports up to 2x Double-Width GPUs</li>
+</ul>",EchoStreams,,FlacheStreams Products: AMD EPYC Processor,"",true,Title,Default Title,,,,,,,,"",0.0,,0,deny,manual,0.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheSAN4N24M-UN-front_0001_Layer-1_f020cbe4-b085-42be-9869-90cfb23af71b.png?v=1564529842,1,"",false,,,,lb,,,active
+flachesan4n24m-ur,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheSAN4N24M-UN-front_0000_FlacheSAN4N24M-UN-rear_73330c5c-02f8-4a97-88e4-5e2e786c5ee6.png?v=1564529842,2,"",,,,,,,,
+flachesan2n24u-ur,FlacheSAN2N24U-UR 2U 24 NVMe U.2 2ND GEN AMD EPYC,"<p><strong>Key Features</strong></p>
+<ul>
+<li>All NVMe Flash Array supports Single Socket 2nd Gen AMD EPYC up to 64 cores Single/Multi NUMA domain</li>
+<li>Supports 24x front accessible hot-swap NVMe PCIe3 x4 2.5” drives</li>
+<li>Up to 60GB/s (480 Gigabits/s) throughput and 12 Millions IOPS through RDMA</li>
+<li>Supports 4x full height PCIe3 x16 PCIe slots (Optional: 6x PCIe3 x16 slots)</li>
+<li>Symmetrically balance design each CPU managing half NVMe and NIC</li>
+</ul>
+<ul></ul>
+<ul></ul>
+<ul></ul>
+<ul></ul>
+<ul></ul>",Premio Inc,,FlacheStreams Products: AMD EPYC Processor,"2U, XEON SP",true,Title,Default Title,,,,,,,,BB224NUD5TY18-A,27669.13457,,0,deny,manual,0.00,,false,false,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheSAN2N24U-D5FrontAngle_2d1efa25-ed0e-4141-a21e-e36889e3e457.png?v=1564616926,1,"",false,,,,lb,,,active
+flachesan2n24u-ur,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheSAN2N12C-D5Rear-1_73f836dd-ff1c-4764-8edc-03a2b8ef19c1.png?v=1564616926,2,"",,,,,,,,
+flachesan2n24u-ur,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheSAN2N24U-D5Front_f97d9c8d-dcc8-4010-9dd8-4bfbd4f00a56.png?v=1564616926,3,"",,,,,,,,
+flachesan1n10u-ur,FlacheSAN1N10U-UR 1U 10 BAYS NVMe U.2 PCIE X4 SINGLE 2ND GEN AMD EPYC 500W HRP,"<div id=""text-block-3"" class=""mk-text-block  mk-animate-element fade-in    mk-in-viewport"">
+<ul>
+<li>Storage server supports Single Socket 2nd Gen AMD EPYC up to 64 cores Single/Multi NUMA domain</li>
+<li>Supports PCIe GEN 4; up to 4TB DDR4 RAM</li>
+<li>Supports 3x PCIe3 x16 slots</li>
+<li>1U with 10x hot-swappable 2.5” NVMe U.2 SSD bays</li>
+<li>Capable of sustaining up to 250Gbps of bandwidth and 7.8 IOPS</li>
+</ul>
+</div>",Premio Inc,,FlacheStreams Products: AMD EPYC Processor,"10-20 bays, 1U, EPYC, server",true,Title,Default Title,,,,,,,,BB110NUUNTY14-A,0.0,,0,deny,manual,0.00,,false,false,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheSAN1N10U-UNFrontAngle_26306f6e-2c0b-43c0-8d32-44e4cf520a77.png?v=1564520965,1,"",false,,,,lb,,,active
+flachesan1n10u-ur,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheSAN1N10U-UNFront1_99515484-c7bd-42c9-9e51-977ae7497679.png?v=1564520965,2,"",,,,,,,,
+flachesan1n36m-ur,FlacheSAN1N36M-UR 1U 36 BAYS NF1 NVMe 2ND GEN AMD EYPC 850W HRP PSU,"<h2>Key Features:</h2>
+<ul>
+<li>Storage server supports Single Socket 2nd Gen AMD EYPC up to 64 cores Single/Multi NUMA domain</li>
+<li>1U with 36x hot-swappable NF1 or M.2 NVMe SSD bays</li>
+<li>Supports PCIe GEN 4; up to 2TB DDR4 RAM</li>
+<li>Capable of sustaining up to 300Gbps of bandwidth and 7.8M IOPS</li>
+</ul>",EchoStreams,,FlacheStreams Products: AMD EPYC Processor,"",true,Title,Default Title,,,,,,,,"",0.0,,0,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/Flache1U36_0002_front_d3c760d1-25a7-468c-99a4-1f14cfd24dd7.png?v=1564519146,1,"",false,,,,lb,,,active
+flachesan1n36m-ur,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/Flache1U36_0000_rear_1d8e1b09-bfc7-4c77-8914-5dd743531a30.png?v=1564519146,2,"",,,,,,,,
+flachesan1n36m-ur,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/Flache1U36_0001_angle_678da159-e132-44b9-b484-ccec2ebbf629.png?v=1564519146,3,"",,,,,,,,
+dss448s-ur,DSS448S-UR 4U 48 BAYS SAS DUAL 2ND GEN AMD EPYC,"<h2>Key Features:</h2>
+<ul>
+<li>HA Redundant Storage server support two hot-swap MB modules, each with single 2nd Gen AMD EPYC up to 64 cores Single/Multi NUMA domain</li>
+<li>4U with 48x 3.5” 12Gb/s dual-ported SAS hot-swap HDD bays</li>
+<li>Supports PCIe GEN 4; up to 2TB DDR4 RAM</li>
+<li>Support two hot-swap motherboard nodes; each with AMD ROME UP server boards in one system as unified redundant controllers</li>
+<li>HA Redundant Cluster-in-a-Box solution with PCIe NTB and GbE heartbeat</li>
+</ul>",EchoStreams,,DuraStreams Products: AMD EPYC Processor,2nd-Gen-AMD-EPYC,true,Title,Default Title,,,,,,,,"",0.0,,0,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DSS448S-D5_0000_front-angle_64a471e5-0f13-4461-a905-44f62dbd69fd.png?v=1564510657,1,"",false,,,,lb,,,active
+dss448s-ur,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DSS448S-D5_0001_rear_05177fb1-f0d9-448a-8025-b105a3e791ab.png?v=1564510657,2,"",,,,,,,,
+dss448s-ur,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DSS448S-D5_0002_front_78e44feb-092f-4806-a921-970a5986c7c1.png?v=1564510657,3,"",,,,,,,,
+flachesan1n10u-d5,FlacheSAN1N10U-D5 1U 10 Bays Intel Skylake U.2 NVMe 850W HRP PSU,"<div id=""text-block-3"" class=""mk-text-block  mk-animate-element fade-in    mk-in-viewport"">
+<span class=""vc_empty_space_inner""></span>
+<ul>
+<li>NVMe Flash server supports dual Intel Xeon SP CPU up to 2TB DDR4</li>
+<li>1U with 10x hot-swappable 2.5” NVMe U.2 SSD bays</li>
+<li>Supports 1x PCIe3 x16 expansion slots</li>
+<li>Balance architecture between network and storage for optimal performance</li>
+<li>80 Plus Platinum 500W Redundant PSU</li>
+</ul>
+</div>",EchoStreams,,FlacheStreams Products: Intel® Xeon® Scalable Processor,"10-20 bays, 1U, EPYC, server",true,Title,Default Title,,,,,,,,BB110NUD5TY1,0.0,,0,deny,manual,0.00,,false,false,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheSAN1N10U-UNFrontAngle_5ec60ae0-3247-4dc4-8799-470b1a5cc0df.png?v=1560378940,1,"",false,,,,lb,,,active
+flachesan1n10u-d5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheSAN1N10U-UNFront1_9984c951-42be-47a1-a846-06f300ca2c67.png?v=1560378940,2,"",,,,,,,,
+flachesan2n108m-un,FlacheSAN2N108M-UN  2U with 108x hot-swappable Intel® EDSFF (E1.L) NVMe SSD bays,"<ul>
+<li>Storage server supports Single Socket AMD EPYC CPU;up to 2TB DDR4</li>
+<li>2U with 108x hot-swappable Intel® EDSFF (E1.L) NVMe SSD bays</li>
+<li>Supports 2x PCIe3 x16 slots and 1x PCIe3 x16 OCP 2.0 card</li>
+<li>Capable of sustaining up to 300Gbps of bandwidth and 7.8M IOPS</li>
+</ul>",echostreams,,FlacheStreams Products: AMD EPYC Processor,"",true,Title,Default Title,,,,,,,,"",0.0,,0,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheStream2U108-1024px_0000_front-angle_e70f4f12-3d18-4730-a8e8-48a8b1687ead.png?v=1558032773,1,"",false,,,,lb,,,active
+flachesan2n108m-un,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheStream2U108-1024px_0001_front_83522a6a-b198-4a1e-b602-ab1e63164176.png?v=1558032774,2,"",,,,,,,,
+flachesan2n108m-un,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheStream2U108-1024px_0002_front-top_710cac65-e985-4174-8050-34d6be5c300d.png?v=1558032776,3,"",,,,,,,,
+flachesan2n108m-un,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheStream2U108-1024px_0003_angle-front_39f9fbde-f03a-4637-9096-4f4216e24cdc.png?v=1558032777,4,"",,,,,,,,
+flachesan2n108m-un,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheStream2U108-1024px_0004_back-angle_b71668b0-4918-4e59-9ef2-160f133b859f.png?v=1558032779,5,"",,,,,,,,
+flachesan2n108m-un,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheStream2U108-1024px_0005_back_801a3c4e-8466-447e-9bf4-9314b6473b3c.png?v=1558032781,6,"",,,,,,,,
+flachesan2n108m-un,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheStream2U108-1024px_0006_front-angle-top_6bd31c31-b0dd-42dc-9e52-d70073e2f1e5.png?v=1558032782,7,"",,,,,,,,
+flachesan2n108m-d5,FlacheSAN2N108M-D5 2U with 108x hot-swappable Intel® EDSFF (E1.L) NVMe SSD bays,"<ul>
+<li>Storage server supports Intel® Dual Processor Xeon Scalable; up to 2TB DDR4</li>
+<li>2U with 108x hot-swappable Intel® EDSFF (E1.L) NVMe SSD bays</li>
+<li>Supports 2x PCIe3 x16 slots and 1x PCIe3 x16 OCP 2.0 card</li>
+<li>Capable of sustaining up to 300Gbps of bandwidth and 7.8M IOPS</li>
+</ul>",echostreams,,FlacheStreams Products: Intel® Xeon® Scalable Processor,"",true,Title,Default Title,,,,,,,,"",0.0,,0,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheStream2U108-1024px_0006_front-angle-top.png?v=1558032567,1,"",false,,,,lb,,,active
+flachesan2n108m-d5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheStream2U108-1024px_0000_front-angle.png?v=1558032568,2,"",,,,,,,,
+flachesan2n108m-d5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheStream2U108-1024px_0001_front.png?v=1558032570,3,"",,,,,,,,
+flachesan2n108m-d5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheStream2U108-1024px_0002_front-top.png?v=1558032572,4,"",,,,,,,,
+flachesan2n108m-d5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheStream2U108-1024px_0003_angle-front.png?v=1558032573,5,"",,,,,,,,
+flachesan2n108m-d5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheStream2U108-1024px_0004_back-angle.png?v=1558032575,6,"",,,,,,,,
+flachesan2n108m-d5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheStream2U108-1024px_0005_back.png?v=1558032577,7,"",,,,,,,,
+dss448s-d5,DSS448S-D5 4U 48 BAYS SAS DUAL INTEL XEON,"<h2>Key Features:</h2>
+<ul>
+<li>HA Redundant Storage server support Dual Intel® Xeon® SP Skylake / Cascade Lake up to 1TB DDR4</li>
+<li>4U with 48x 3.5” 12Gb/s dual-ported SAS hot-swap HDD bays</li>
+<li>Four 60mm fan modules for each motherboard node</li>
+<li>Support two hot-swap motherboard nodes; each with Xeon DP server boards in one system as unified redundant controllers</li>
+<li>HA Redundant Cluster-in-a-Box solution with PCIe NTB and GbE heartbeat</li>
+</ul>",EchoStreams,,DuraStreams Products: Intel® Xeon® Scalable Processor,"",true,Title,Default Title,,,,,,,,"",0.0,,0,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DSS448S-D5_0000_front-angle.png?v=1554510782,1,"",false,,,,lb,,,active
+dss448s-d5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DSS448S-D5_0001_rear.png?v=1554510785,2,"",,,,,,,,
+dss448s-d5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DSS448S-D5_0002_front.png?v=1554510788,3,"",,,,,,,,
+dss224n-un-2u-24-bays-nvme-redundant-node-single-epyc-1200w-hrp,DSS224N-UN 2U 24 BAYS NVMe REDUNDANT NODE SINGLE EPYC 1200W HRP,"<p><strong>Key Features</strong></p>
+<ul>
+<li>Storage server supports single AMD EPYC™ up to 1TB DDR4</li>
+<li>2U Redundant High Availability dual systems (nodes)</li>
+<li>Support high density 24 hot-swappable 2.5”-15mm NVMe U.2 SSD bays</li>
+<li>Support redundancy heartbeat through optional GbE and PCIe x 16 NTB</li>
+</ul>",EchoStreams,,DuraStreams Products: AMD EPYC Processor,"",true,Title,Default Title,,,,,,,,"",0.0,,0,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/0002_Layer-19.png?v=1554510661,1,"",false,,,,lb,,,active
+dss224n-un-2u-24-bays-nvme-redundant-node-single-epyc-1200w-hrp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/0000_Layer-21.png?v=1554510665,2,"",,,,,,,,
+dss224n-un-2u-24-bays-nvme-redundant-node-single-epyc-1200w-hrp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/0001_Layer-20.png?v=1554510667,3,"",,,,,,,,
+flachesan4n24m-un,FLACHESAN4N24M-UN EPYC UP Server 24bay,"<h2>Key Features</h2>
+<ul>
+<li>Storage server supports Single Socket AMD EPYC CPU up to 2TB DDR4</li>
+<li>Portable tower with 24x M.2 or NF1 Drives (Rack-mount option available)</li>
+<li>Supports 6x full height PCIe3 slots + 1x PCIe3 OCP</li>
+<li>Ability to power on/off M.2/NF1 drives individually</li>
+</ul>",EchoStreams,,FlacheStreams Products: AMD EPYC Processor,"",true,Title,Default Title,,,,,,,,"",0.0,,0,deny,manual,0.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheSAN4N24M-UN-front_0001_Layer-1.png?v=1553621988,1,"",false,,,,lb,,,active
+flachesan4n24m-un,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheSAN4N24M-UN-front_0000_FlacheSAN4N24M-UN-rear.png?v=1553621989,2,"",,,,,,,,
+flachesan1n36m-un,FlacheSAN1N36M-UN AMD EPYC 36 bay NF1 NVMe 850W HRP PSU,"<h2>Key Features:</h2>
+<ul>
+<li>Storage server supports Single Socket AMD EPYC CPU up to 2TB DDR4</li>
+<li>1U with 36x hot-swappable NF1 or M.2 NVMe SSD bays</li>
+<li>Supports 2x PCIe3 x16 slots and 1x PCIe3 x16 OCP 2.0 card</li>
+<li>Capable of sustaining up to 300Gbps of bandwidth and 7.8M IOPS</li>
+</ul>",EchoStreams,,FlacheStreams Products: AMD EPYC Processor,"",true,Title,Default Title,,,,,,,,"",0.0,,0,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/Flache1U36_0002_front.png?v=1552519244,1,"",false,,,,lb,,,active
+flachesan1n36m-un,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/Flache1U36_0000_rear.png?v=1552519246,2,"",,,,,,,,
+flachesan1n36m-un,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/Flache1U36_0001_angle.png?v=1552519247,3,"",,,,,,,,
+gridstreams-gs206g-un-2u-amd-epyc-server-with-6-gpus-and-6-nvme-2200w-hrp,GridStreams-GS206G-UN 2U AMD EPYC Server with 6 GPUs and 6 NVMe 2200W HRP,"Key Features:
+<ul>
+<li>GPU server supports Single Socket AMD EPYC CPU up to 2TB DDR4</li>
+<li>2U with 6 x GPU double-width cards</li>
+<li>Support 6x NVMe SSD for storage</li>
+<li>Supports 1x PCIe3 x16 slot for network card</li>
+</ul>",EchoStreams,,GridStreams,"",true,Title,Default Title,,,,,,,,"",0.0,,-2,deny,manual,0.00,,false,true,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/GridStreams_GS206G-UN_Front.png?v=1548201460,1,"",false,,,,lb,,,active
+gridstreams-gs206g-un-2u-amd-epyc-server-with-6-gpus-and-6-nvme-2200w-hrp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/GridStreams_GS206G-UN_Front45.png?v=1548201462,2,"",,,,,,,,
+gridstreams-gs206g-un-2u-amd-epyc-server-with-6-gpus-and-6-nvme-2200w-hrp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/GridStreams_GS206G-UN_Rear2.png?v=1548201464,3,"",,,,,,,,
+oss424-d5-4u-24-bays,"OSS424-D5 4U 24 BAYS 3.5"" HDD 12G SAS DUAL XEON SP 800W HRP","<p><strong>Key Features</strong></p>
+<ul>
+<li>Versatile 4U Storage chassis with optical cooling for high end server</li>
+<li>24 tray-less hot Swap 3.5″ HDD 6G/12G SAS or SATA drive bays</li>
+<li>Optional 2, 4, 8, 10 hot-swap 2.5″ 7mm drive bays rear accessible</li>
+<li>High efficiency Platinum redundant PSU 800W or 1200W with DC 48V option</li>
+<li>Supports up to SSI EEB/TEB extended ATX motherboard</li>
+</ul>",Premio Inc,,OmniStreams Products: Intel® Xeon® Scalable Processor,"21-40 bays, 4U, intel xeon, omnistreams, server",true,Title,Default Title,,,,,,,,BB42433D5TY16-A,0.0,,0,deny,manual,0.00,,false,false,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/OSS424_750x750_3_grande_grande_6e58e81e-e433-4bf6-b1ae-c062a83e0f9a.png?v=1541121304,1,"",false,,,,lb,,,active
+oss424-d5-4u-24-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/OSS424_750x750_2.png?v=1541121304,2,"",,,,,,,,
+oss424-d5-4u-24-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/NEW_OSS424-D4-Rear-8SSD.png?v=1541121316,3,"",,,,,,,,
+oss316-d5-3u-16-bays,"OSS316-D5 3U 16 BAYS 3.5"" HDD 12G SAS DUAL XEON SP 800W HRP","<div class=""vc_empty_space"">
+<strong>Key Features</strong><br><span class=""vc_empty_space_inner""></span>
+</div>
+<div id=""text-block-3"" class=""mk-text-block  mk-animate-element fade-in    mk-in-viewport"">
+<ul>
+<li>Versatile 3U Storage chassis with optimal cooling for high end server</li>
+<li>16x Hot Swap Tray-less 3.5″ HDD 12G SAS or SATA drive bays</li>
+<li>Optional 2,4, or 6 rear hot -swap 2.5″ SSD 7mm drive bays</li>
+<li>High efficiency Platinum redundant PSU 800W or 1200W</li>
+<li>Supports Intel Xeon ATX, SSI CEB, or 13″ EEB motherboards</li>
+</ul>
+</div>",Premio Inc,,OmniStreams Products: Intel® Xeon® Scalable Processor,"10-20 bays, 3U, intel xeon, omnistreams, server",true,Title,Default Title,,,,,,,,BB31633D5TY16-A,0.0,,0,deny,manual,0.00,,false,false,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/OSS316FrontAngle.png?v=1541121294,1,"",false,,,,lb,,,active
+oss316-d5-3u-16-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/OSS316Front.png?v=1541121294,2,"",,,,,,,,
+oss316-d5-3u-16-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/OSS316Rear.png?v=1541121294,3,"",,,,,,,,
+oss224-d5-2u-24-bays,"OSS224-D5 2U 24 BAYS 2.5"" 12G SAS DUAL XEON SP 800W HRP","<div id=""text-block-2"" class=""mk-text-block  mk-animate-element right-to-left    mk-in-viewport"">
+<div class=""clearboth""><strong>Key Features</strong></div>
+</div>
+<div id=""text-block-3"" class=""mk-text-block  mk-animate-element fade-in    mk-in-viewport"">
+<ul>
+<li>2U 26 inch in depth storage appliance server chassis</li>
+<li>24 Tool-less Hot Swap 2.5″ 12G SAS/SATA drive bays &amp; two 2.5″ internal bays</li>
+<li>Supports Intel® Xeon SP ATX, 10.5″ SSI CEB or 13″ EEB motherboards</li>
+<li>7 low profile PCIe slots</li>
+<li>High efficiency platinum 800/1200W redundant power supply</li>
+</ul>
+</div>",Premio Inc,,OmniStreams Products: Intel® Xeon® Scalable Processor,"21-40 bays, 2U, intel xeon, omnistreams, server",true,Title,Default Title,,,,,,,,BB22432D5TY16-A,0.0,,0,deny,manual,0.00,,false,false,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/OSS224FrontAngle.png?v=1541121289,1,"",false,,,,lb,,,active
+oss224-d5-2u-24-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/OSS224-D4Front.png?v=1541121289,2,"",,,,,,,,
+oss224-d5-2u-24-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/NEW_Rear-copy.png?v=1541121289,3,"",,,,,,,,
+oss212l-d5-2u-12-bays,"OSS212L-D5 2U 12 BAYS 3.5"" HDD 12G SAS DUAL XEON SP LOW PROFILE SLOTS 800W HRP","<div class=""vc_empty_space""><span class=""vc_empty_space_inner""></span></div>
+<div id=""text-block-3"" class=""mk-text-block  mk-animate-element fade-in    mk-in-viewport"">
+<p><strong>Key Features</strong></p>
+<ul>
+<li>2U 26″ in-depth storage appliance server chassis</li>
+<li>12 Tray-less Hot Swap 3.5″ 12G SAS/SATA drive bays &amp; two 2.5″ internal bay</li>
+<li>Supports single or dual Intel Xeon ATX, 10.5″ SSI CEB or 13″ EEB motherboards</li>
+<li>7 low profile expansion slots</li>
+<li>High efficiency platinum 550/800/1200W redundant power</li>
+</ul>
+</div>",Premio Inc,,OmniStreams Products: Intel® Xeon® Scalable Processor,"10-20 bays, 2U, intel xeon, omnistreams, server",true,Title,Default Title,,,,,,,,BB21233D5TY16-A,0.0,,0,deny,manual,0.00,,false,false,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/OSS212FrontAngle.png?v=1541121283,1,"",false,,,,lb,,,active
+oss212l-d5-2u-12-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/OSS212Front.png?v=1541121283,2,"",,,,,,,,
+oss212l-d5-2u-12-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/Rear-copy_b05e295d-2015-4692-b7db-1a23a28b62c1.png?v=1541121283,3,"",,,,,,,,
+oss212f-d5-2u-12-bays,"OSS212F-D5 2U 12 BAYS 3.5"" HDD 12G SAS DUAL XEON SP FULL HEIGHT SLOTS 800W HRP","<div id=""text-block-2"" class=""mk-text-block  mk-animate-element right-to-left    mk-in-viewport"">
+<div class=""clearboth""><strong>Key Features</strong></div>
+</div>
+<div id=""text-block-3"" class=""mk-text-block  mk-animate-element fade-in    mk-in-viewport"">
+<ul>
+<li>2U 26″ in-depth storage appliance server chassis</li>
+<li>12 Tray-less Hot Swap 3.5″ 12G SAS/SATA drive bays &amp; two 2.5″ internal bay</li>
+<li>Supports Intel® Xeon ATX, 10.5″ SSI CEB or 13″ EEB motherboards</li>
+<li>3 full height PCIe riser card expansion slots</li>
+<li>High efficiency platinum 550/800/1200W redundant power</li>
+</ul>
+</div>",Premio Inc,,OmniStreams Products: Intel® Xeon® Scalable Processor,"10-20 bays, 2U, intel xeon, JBOD, omnistreams",true,Title,Default Title,,,,,,,,BB21233D5TY26-A,0.0,,0,deny,manual,0.00,,false,false,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/OSS212FrontAngle_d570b117-dc1d-43e5-9b98-1670cbcea538.png?v=1541121268,1,"",false,,,,lb,,,active
+oss212f-d5-2u-12-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/OSS212Front_bd7c14b6-6a4c-4395-8bbc-4f28a27464f8.png?v=1541121268,2,"",,,,,,,,
+oss212f-d5-2u-12-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/Rear-copy_3f508571-7638-447e-a8ff-d69cc0c99f88.png?v=1541121273,3,"",,,,,,,,
+oss1a4-d5-1u-4-bays,OSS1A4-D5 1U 4 BAYS 7MM SSD 12G SAS/SATA DUAL XEON SP 500W HRP,"<p><strong>Key Features</strong></p>
+<ul>
+<li>1U 21″ short-depth design with optimized cooling</li>
+<li>Capable of supporting up to two Intel Xeon SP (Skylake) up to 205W</li>
+<li>Supports Intel Xeon ATX, 10.5″ SSI CEB or 13″ EEB motherboards</li>
+<li>Low acoustic noise and induced vibrations for greater reliability</li>
+<li>Customizable extruded aluminum front bezel</li>
+</ul>",Premio Inc,,OmniStreams Products: Intel® Xeon® Scalable Processor,"1U, <10 bays, intel xeon, omnistreams, server",true,Title,Default Title,,,,,,,,BB1042FD5TY14-A,0.0,,0,deny,manual,0.00,,false,false,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FR1-copy_grande_9e85c8f8-8536-42e8-8e31-508f420aaae4.png?v=1541121256,1,"",false,,,,lb,,,active
+oss1a4-d5-1u-4-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FR2-copy.png?v=1541121256,2,"",,,,,,,,
+oss1a4-d5-1u-4-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/NEW_Rear.png?v=1541121256,3,"",,,,,,,,
+flachesan2v-un-2u-48-bays,FlacheSAN2V-UN 2U 48 BAYS 7MM 12G SAS/SATA SSD SINGLE EPYC 800W HRP,"<div class=""vc_empty_space""><span class=""vc_empty_space_inner""></span></div>
+<div id=""text-block-3"" class=""mk-text-block  mk-animate-element fade-in    mk-in-viewport"">
+<p><strong>Key Features</strong></p>
+<ul>
+<li>Flash server supports Single AMD EPYC up to 1TB DDR4</li>
+<li>Front hot-swap 48x 2.5” 7mm and 2 internal 2.5” 15mm for OS drives</li>
+<li>Up to 18GB/s (128Gbps) seq. read and up to 1.4M IOPS 4KB random read</li>
+<li>Supports up to 7x Low Profile MD2 PCIe Expansion slots</li>
+<li>High efficiency redundant power supplies</li>
+</ul>
+</div>",Premio Inc,,FlacheStreams Products: AMD EPYC Processor,"2U, >40 bays, EPYC, server",true,Title,Default Title,,,,,,,,BB2482FUNGB16-A,0.0,,0,deny,manual,0.00,,false,false,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheSAN2V-D4-Front-Angle_720x_0f800dd2-734c-4d08-be13-4c49845f6d27.png?v=1548813656,1,"",false,,,,lb,,,active
+flachesan2v-un-2u-48-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheSAN2V-D4-Front-Top-Angle_81767491-87dc-4ed6-a773-83fdee4fb9f0.png?v=1548813656,2,"",,,,,,,,
+flachesan2v-un-2u-48-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheSAN2V-UN.png?v=1548813656,3,"",,,,,,,,
+flachesan2v-u5-2u-48-bays,FlacheSAN2V-U5 2U 48 BAYS 7MM 12G SAS/SATA SSD SINGLE XEON SP LOW PROFILE,"<p><strong>Key Features</strong></p>
+<ul>
+<li>Flash server supports Single Intel® Xeon® SP Skylake up to 1TB DDR4</li>
+<li>Front hot-swap 48x 2.5” 7mm and 2 internal 2.5” 15mm for OS drives</li>
+<li>Up to 18GB/s (128Gbps) seq. read and up to 1.4M IOPS 4KB random read</li>
+<li>Supports up to 7x Low Profile MD2 PCIe Expansion slots</li>
+<li>High efficiency redundant power supplies</li>
+</ul>
+<ul></ul>
+<ul></ul>
+<ul></ul>
+<ul></ul>",Premio Inc,,FlacheStreams Products: Intel® Xeon® Scalable Processor,"2U, XEON SP",true,Title,Default Title,,,,,,,,BB2482FU5SM16-A,24947.58035,,0,deny,manual,0.00,,false,false,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheSAN2V-D4-Front-Top-Angle_1944x_720x_d7ddcfb0-5da0-4bd3-ab6f-70c6fb2c140f.png?v=1548813273,1,"",false,,,,lb,,,active
+flachesan2v-u5-2u-48-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheSAN2V-D4-Front-Angle_2048x_c2a4e799-c182-4f76-ba9c-ce5f60bcf049.png?v=1548813273,2,"",,,,,,,,
+flachesan2v-u5-2u-48-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/NEW_FlacheSAN2V-D4-Rear_1944x_0369d7d5-273f-4298-ac01-a0737983bcaf.png?v=1548813273,3,"",,,,,,,,
+flachesan2v-d5-2u-48-bays,FlacheSAN2V-D5 2U 48 BAYS 7MM 12G SAS/SATA SSD DUAL XEON SP LOW PROFILE,"<p><strong>Key Features</strong></p>
+<ul>
+<li>Storage server supports Dual Intel® Xeon® SP Skylake up to 1.5TB DDR4</li>
+<li>Front hot-swap 48x 2.5” 7mm and 2 internal 2.5” 15mm for OS drives</li>
+<li>Up to 18GB/s (128Gbps) seq. read and up to 1.4M IOPS 4KB random read</li>
+<li>Supports up to 7x Low Profile MD2 PCIe Expansion slots</li>
+<li>High efficiency redundant power supplies</li>
+</ul>
+<ul></ul>
+<ul></ul>
+<ul></ul>",Premio Inc,,FlacheStreams Products: Intel® Xeon® Scalable Processor,"2U, XEON SP",true,Title,Default Title,,,,,,,,BB2482FD5TY16-A,24947.58035,,0,deny,manual,0.00,,false,false,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheSAN2V-D4-Front-Angle_2048x_720x_079e0f97-c9ef-4515-b36b-18c8375c2eaa.png?v=1548812908,1,"",false,,,,lb,,,active
+flachesan2v-d5-2u-48-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheSAN2V-D4-Front-Top-Angle_1944x_a267e976-04fa-4c09-8075-b8076c8f2539.png?v=1548812908,2,"",,,,,,,,
+flachesan2v-d5-2u-48-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/NEW_FlacheSAN2V-D4-Rear_1944x_f8dfa4a6-8015-48b6-ad27-a2f7d9bd9169.png?v=1548812908,3,"",,,,,,,,
+flachesan2n24u-d5,FlacheSAN2N24U-D5 2U 24 NVMe U.2 PCIE x4 DUAL XEON SP,"<p><strong>Key Features</strong></p>
+<ul>
+<li>All NVMe Flash Array supports Dual Intel® Xeon® SP Scalable Processors (Skylake)</li>
+<li>Support 24 x front accessable hot-swap NVMe PCIe3 x4 2.5” drives</li>
+<li>Up to 60GB/s (480 Gigabits/s) throughput and 12 Millions IOPS through RDMA</li>
+<li>Support 4x full height PCIe3 x16 PCIe slots (Optional 6x PCIe3 x16 slots)</li>
+<li>Symmetrically balanced design, each CPU managing half NVMe and NIC</li>
+</ul>
+<ul></ul>
+<ul></ul>
+<ul></ul>
+<ul></ul>
+<ul></ul>",Premio Inc,,FlacheStreams Products: Intel® Xeon® Scalable Processor,"2U, XEON SP",true,Title,Default Title,,,,,,,,BB224NUD5TY18-A,27669.13457,,0,deny,manual,0.00,,false,false,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheSAN2N24U-D5FrontAngle.png?v=1564781773,1,"",false,,,,lb,,,active
+flachesan2n24u-d5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheSAN2N12C-D5Rear-1.png?v=1564774767,2,"",,,,,,,,
+flachesan2n24u-d5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheSAN2N24U-D5Front.png?v=1564774767,3,"",,,,,,,,
+flachesan2n12c-d5-2u-12-nvme-add-in-card-pcie-x8-dual-xeon-sp,FlacheSAN2N12C-D5 2U 12 NVMe Add-In-Card PCIE x8 Dual Xeon SP,"<p><strong>Key Features</strong></p>
+<ul>
+<li>All NVMe Flash Array supports Dual Intel® Xeon® SP Scalable Processors (Skylake)</li>
+<li>Support 12 x front accessible hot-swap NVMe PCIe3 x8 Add-in-Cards</li>
+<li>Up to 60GB/s (480 Gigabits/s) throughput and 12 Millions IOPS through RDMA</li>
+<li>Support 4x full height PCIe3 x16 and 2x Low Profile PCIe3 x16 slots</li>
+<li>Symmetrically balanced design, each CPU managing half NVMe and NIC</li>
+</ul>
+<ul></ul>
+<ul></ul>
+<ul></ul>
+<ul></ul>
+<ul></ul>
+<ul></ul>",Premio Inc,,FlacheStreams Products: Intel® Xeon® Scalable Processor,"2U, XEON SP",true,Title,Default Title,,,,,,,,BB212NCD5TY18-A,27669.13457,,0,deny,manual,0.00,,false,false,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheSAN2N12C-D5FrontAngle.png?v=1541121069,1,"",false,,,,lb,,,active
+flachesan2n12c-d5-2u-12-nvme-add-in-card-pcie-x8-dual-xeon-sp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheSAN2N12C-D5FrontRightAngleOpen.png?v=1541121069,2,"",,,,,,,,
+flachesan2n12c-d5-2u-12-nvme-add-in-card-pcie-x8-dual-xeon-sp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/LowProfileNVMeTray-Liqid.png?v=1541121069,3,"",,,,,,,,
+flachesan2n12c-d5-2u-12-nvme-add-in-card-pcie-x8-dual-xeon-sp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheSAN2-D4-Rear_03f08458-2b0a-4c61-a4a6-0d4791468ced.png?v=1541121069,4,"",,,,,,,,
+flachesan2-d5-2u-48-bays-7mm-12g-sas-sata-ssd-dual-xeon-sp-full-height,FlacheSAN2-D5 2U 48 BAYS 7MM 12G SAS/SATA SSD DUAL XEON SP FULL HEIGHT,"<p><strong>Key Features</strong></p>
+<ul>
+<li>Storage server supports Dual Intel® Xeon® SP Skylake up to 2TB DDR4</li>
+<li>Front hot-swap 48x 2.5” 7mm and 4 rear 2.5” 7mm total 52 bay</li>
+<li>Up to 21GB/s (168Gbps) sustain read throughput and up to 2M IOPS</li>
+<li>Supports up to 6x Full Height PCIe Expansion slots; 4 of them are Full Length</li>
+<li>High efficiency platinum redundant power supplies</li>
+</ul>
+<ul></ul>
+<ul></ul>",Premio Inc,,FlacheStreams Products: Intel® Xeon® Scalable Processor,"2U, XEON SP",true,Title,Default Title,,,,,,,,BB2482FD5IT16-A,24947.58035,,0,deny,manual,0.00,,false,false,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/flachesan2-D4FrontAngle.png?v=1541121062,1,"",false,,,,lb,,,active
+flachesan2-d5-2u-48-bays-7mm-12g-sas-sata-ssd-dual-xeon-sp-full-height,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheSAN2-D4-Front-Top-Angle.png?v=1541121062,2,"",,,,,,,,
+flachesan2-d5-2u-48-bays-7mm-12g-sas-sata-ssd-dual-xeon-sp-full-height,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheSAN2-D4-Rear.png?v=1541121062,3,"",,,,,,,,
+flachesan1n20u-un-1u-20-bays-nvme-u-2-7mm-single-epyc-500w-hrp,FlacheSAN1N20U-UN 1U 20 BAYS NVMe U.2 7MM SINGLE EPYC 500W HRP,"<p><strong>Key Features</strong></p>
+<ul>
+<li>Storage server supports Single Socket AMD EPYC CPU up to 2TB DDR4</li>
+<li>1U with 20x hot-swappable 2.5”-7mm NVMe U.2 SSD bays</li>
+<li>Supports 3x PCIe3 x16 slots</li>
+<li>Capable of sustaining up to 250Gbps of bandwidth and 7.8 IOPS</li>
+<li>80 Plus Platinum 500W Redundant PSU</li>
+</ul>",Premio Inc,,FlacheStreams Products: AMD EPYC Processor,"10-20 bays, 1U, EPYC, server",true,Title,Default Title,,,,,,,,BB120NFUNTY14-A,0.0,,0,deny,manual,0.00,,false,false,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheSAN1L-D4-FrontAngleS_720x_caf6baf6-d3d2-40a8-986b-d607a6901451.png?v=1548813775,1,"",false,,,,lb,,,active
+flachesan1n20u-un-1u-20-bays-nvme-u-2-7mm-single-epyc-500w-hrp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheSAN1L-D4-FrontNoAngle_a5a61d2d-d7ba-49bc-a80c-fc3d4ac55897.png?v=1548813775,2,"",,,,,,,,
+flachesan1n20u-un-1u-20-bays-nvme-u-2-7mm-single-epyc-500w-hrp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheSAN1L-UN.png?v=1548813775,3,"",,,,,,,,
+flachesan1n10u-un,FlacheSAN1N10U-UN 1U 10 BAYS NVMe U.2 PCIE X4 SINGLE EPYC 500W HRP,"<div id=""text-block-3"" class=""mk-text-block  mk-animate-element fade-in    mk-in-viewport"">
+<span class=""vc_empty_space_inner""></span>
+<ul>
+<li>Storage server supports Single Socket AMD EPYC CPU up to 2TB DDR4</li>
+<li>1U with 10x hot-swappable 2.5” NVMe U.2 SSD bays</li>
+<li>Supports 3x PCIe3 x16 slots</li>
+<li>Capable of sustaining up to 250Gbps of bandwidth and 7.8 IOPS</li>
+<li>80 Plus Platinum 500W Redundant PSU</li>
+</ul>
+</div>",Premio Inc,,FlacheStreams Products: AMD EPYC Processor,"10-20 bays, 1U, EPYC, server",true,Title,Default Title,,,,,,,,BB110NUUNTY14-A,0.0,,0,deny,manual,0.00,,false,false,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheSAN1N10U-UNFrontAngle.png?v=1541121049,1,"",false,,,,lb,,,active
+flachesan1n10u-un,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheSAN1N10U-UNFront1.png?v=1541121050,2,"",,,,,,,,
+flachesan1l-un-1u-20-bays,FlacheSAN1L-UN 1U 20 Bays 7MM 12G SAS /SATA SSD Single EPYC,"<p><strong>Key Features</strong></p>
+<ul>
+<li>Storage server supports Single Socket Intel® Xeon® SP Skylake up to 768GB DDR4</li>
+<li>2U with 20x hot-swappable 2.5”- 7mm SATA SSD or HDD bays</li>
+<li>Support 3x PCIe slots (2x Full Height)</li>
+<li>Low acoustic noise and induced vibrations for greater reliability</li>
+<li>Capable of sustaining up to 112Gbps of throughput and 1M+ IOPS</li>
+</ul>
+<ul></ul>",Premio Inc,,FlacheStreams Products: AMD EPYC Processor,"1U, AMD EPYC",true,Title,Default Title,,,,,,,,BB1202FUNTY14-A,15875.73295,,0,deny,manual,0.00,,false,false,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheSAN1L-Dv3-FrontAngle_720x_1751a25f-43f5-4163-97b6-a0739071f93c.png?v=1548813828,1,"",false,,,,lb,,,active
+flachesan1l-un-1u-20-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheSAN1L-U4-Front_92f1d907-0b30-40cb-937d-b615f57cdf31.png?v=1548813828,2,"",,,,,,,,
+flachesan1l-un-1u-20-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/NEW_FlacheSAN1L-Dv3-Rear_385b3e1a-80a0-442f-974b-c583e6afcc57.png?v=1548813828,3,"",,,,,,,,
+flachesan1l-u5-1u-20-bays-7mm-12g-sas-sata-ssd-single-xeon-sp,FlacheSAN1L-U5 1U 20 BAYS 7MM 12G SAS/SATA SSD SINGLE XEON SP,"<p><strong>Key Features</strong></p>
+<ul>
+<li>Storage server supports Single Socket Intel® Xeon® SP Skylake up to 768GB DDR4</li>
+<li>2U with 20x hot-swappable 2.5”- 7mm SATA SSD or HDD bays</li>
+<li>Support 3x PCIe slots (2x Full Height)</li>
+<li>Low acoustic noise and induced vibrations for greater reliability</li>
+<li>Capable of sustaining up to 112Gbps of throughput and 1M+ IOPS</li>
+</ul>
+<ul></ul>",Premio Inc,,FlacheStreams Products: Intel® Xeon® Scalable Processor,"1U, XEON SP",true,Title,Default Title,,,,,,,,BB1202FU5SM14-A,15875.73295,,0,deny,manual,0.00,,false,false,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheSAN1L-U4-Front.png?v=1541121040,1,"",false,,,,lb,,,active
+flachesan1l-u5-1u-20-bays-7mm-12g-sas-sata-ssd-single-xeon-sp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheSAN1L-U4-Front-angle.png?v=1541121040,2,"",,,,,,,,
+flachesan1l-u5-1u-20-bays-7mm-12g-sas-sata-ssd-single-xeon-sp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheSAN1L-U4-RearS.png?v=1541121040,3,"",,,,,,,,
+flachesan1l-d5-1u-20-bays,FlacheSAN1L-D5 1U 20 BAYS 7MM 12G SAS/SATA SSD DUAL XEON SP,"<p><strong>Key Features</strong></p>
+<ul>
+<li>1U with 20x hot swappable 2.5″ – 7mm SATA SSD or HDD bays</li>
+<li>Dual Intel XeonSP Skylake with 2x PCIe3 x16 slots + 2x OCP x16</li>
+<li>Low acoustic noise and induced vibrations for greater reliability</li>
+<li>Capable of sustaining up to 112Gbps of throughput and 1M+ IOPS</li>
+</ul>",Premio Inc,,FlacheStreams Products: Intel® Xeon® Scalable Processor,"1U, XEON SP",true,Title,Default Title,,,,,,,,BB1202FD5TY14-A,15875.73295,,0,deny,manual,0.00,,false,false,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheSAN1L-Dv3-FrontAngle.png?v=1541121035,1,"",false,,,,lb,,,active
+flachesan1l-d5-1u-20-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/FlacheSAN1L-U4-Front_6a90af31-83e4-4612-b69e-5e08ac222512.png?v=1541121035,2,"",,,,,,,,
+flachesan1l-d5-1u-20-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/NEW_FlacheSAN1L-Dv3-Rear.png?v=1541121035,3,"",,,,,,,,
+edrawer4072j-s3-4u-60-bays,"eDrawer4072J-S3 4U 72 BAYS 3.5"" HDD 12G SAS DUAL EXPANDER JBOD 1100W HRP","<ul>
+<li class=""p1"">4U with 72x top-load 12G SAS/SATA hot-swap trayless bays</li>
+<li class=""p1"">“Support total 12x SFF8644 ports for up to 384Gbps of SAS bandwidth to Host and Expansion connections”</li>
+<li class=""p1"">“Dual 12G SAS expander modules supporting 12G SAS devices and EDFB for 6G SATA devices”</li>
+<li class=""p1"">1100W FAN+PSU modules with individual hot-swappable fan modules</li>
+</ul>",Premio Inc,,JBODs,"4U, >40 bays, JBOD",true,Title,Default Title,,,,,,,,JB472S33D6MA-A,0.0,,0,deny,manual,0.00,,false,false,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/4U72-Front.png?v=1627064433,1,"",false,,,,lb,,,active
+edrawer4072j-s3-4u-60-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/4U72-Rear.png?v=1627064433,2,"",,,,,,,,
+edrawer4060s-un-4u-60-bays,"eDrawer4060S-UN 4U 60 Bays 3.5"" HDD 12G SAS Single EPYC","<p><strong>Key Features</strong></p>
+<ul>
+<li>Storage server supports single AMD EPYC (Naples)</li>
+<li>Support 60 x 3.5″ Trayless Drive Bays in 4RU</li>
+<li>Two 48 ports 12G SAS expanders for maximum throughput</li>
+<li>Support full height PCIe expansions without risers</li>
+</ul>
+<ul></ul>
+<ul></ul>",Premio Inc,,ScaleStreams Products: AMD EPYC Processor,"4U, >40 bays, AMD EPYC, scalestreams, server",true,Title,Default Title,,,,,,,,BB46033UNSM18-A,0.0,,0,deny,manual,0.00,,false,false,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/eDrawer4060J-S3-Front-Open_grande_5fe5f775-212d-4cde-ac1f-886333247508.png?v=1566435154,1,"",false,,,,lb,,,active
+edrawer4060s-un-4u-60-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/ScaleStreams_eDrawer4060S-UN.png?v=1566435154,2,"",,,,,,,,
+copy-of-edrawer4060j-s3-4u-60-bays,"eDrawer4060S-D5 4U 60 Bay 3.5"" HDD 12G SAS Dual Xeon SP","<p><strong>Key Features</strong></p>
+<ul>
+<li>Storage server supports Dual Intel® Xeon® E5-2600v3/v4 Skylake</li>
+<li>Support 60 x 3.5″ Trayless Drive Bays in 4RU</li>
+<li>Two 48 ports 12G SAS expanders for maximum throughput</li>
+<li>Support full height PCIe expansions without risers</li>
+</ul>
+<ul></ul>",Premio Inc,,ScaleStreams Products: Intel® Xeon® Scalable Processor,"4U, >40 bays, scalestreams, server, XEON SP",true,Title,Default Title,,,,,,,,JB460S33D8MA-A,0.0,,0,deny,manual,0.00,,false,false,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/eDrawer4060J-S3-Front-Open_grande_5f7bfd91-71a6-46b8-9bb3-c1fc4edf8665.png?v=1566435262,1,"",false,,,,lb,,,active
+copy-of-edrawer4060j-s3-4u-60-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/ScaleStreams-eDrawer4060S-D5-RearS.png?v=1566435266,2,"",,,,,,,,
+edrawer4060j-s3-4u-60-bays,"eDrawer4060J-S3 4U 60 BAYS 3.5"" HDD 12G SAS DUAL EXPANDER JBOD 1200W HRP","<p><strong>Key Features:</strong></p>
+<ul>
+<li>4U with 60x top-load 12G SAS patented tray-less hot-swap HDD bays</li>
+<li>Hot-swap redundant 12G Expanders up to 192Gbps per Expander</li>
+<li>32” short depth with patented internal cable-managementarm</li>
+<li>Ease of serviceability with 6 hotswap exhaust fans and Platinum grade HRP PSU</li>
+<li>Remote management GbE port for status report</li>
+</ul>",Premio Inc,,JBODs,"4U, >40 bays, JBOD",true,Title,Default Title,,,,,,,,JB460S33D8MA-A,0.0,,0,deny,manual,0.00,,false,false,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/eDrawer4060J-S3-Front-Open_grande_373fea19-6562-46ea-a22d-bd3e58aecf5b.png?v=1541121006,1,"",false,,,,lb,,,active
+edrawer4060j-s3-4u-60-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/eDrawer4060J-S3-Rear.png?v=1541121006,2,"",,,,,,,,
+edrawer4048s-un-4u-48-bays,"eDrawer4048S-UN 4U 48 Bays 3.5"" HDD 12G SAS Single EPYC","<p><strong>Key Features</strong></p>
+<ul>
+<li>Supports Single Socket AMD EPYC™ up to 1TB DDR4 RAM</li>
+<li>Supports 48 x 3.5” and 4 x 2.5” hot-swap SSD/Hard Drives in 4RU</li>
+<li>Two 36 ports 12G SAS expanders for maximum throughput</li>
+<li>Supports full height PCIe expansions without risers</li>
+</ul>",Premio Inc,,ScaleStreams Products: AMD EPYC Processor,"4U, >40 bays, EPYC, scalestreams, server",true,Title,Default Title,,,,,,,,BB44833UNGB18-A,0.0,,0,deny,manual,0.00,,false,false,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/eDrawer4048SFrontOpenNew-NEW_grande_d6f79f25-bd1f-4ed1-b6e5-0f415cabefc8.png?v=1541121001,1,"",false,,,,lb,,,active
+edrawer4048s-un-4u-48-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/eDrawer4048SRearAngleOpen_f026224c-2db5-4a0e-83d4-1ae609fe8ed2.png?v=1541121001,2,"",,,,,,,,
+edrawer4048s-un-4u-48-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/eDrawer4048STopOpen_202b49d8-bdf6-498a-8ba1-92dbfb35dfc5.png?v=1541121001,3,"",,,,,,,,
+edrawer4048s-un-4u-48-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/eDrawer4048S-UN_1.png?v=1541121001,4,"",,,,,,,,
+edrawer4048s-un-4u-48-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/eDrawer4048S-UN.png?v=1541121001,5,"",,,,,,,,
+edrawer4048s-d5-4u-48-bays,"eDrawer4048S-D5 4U 48 Bays 3.5"" HDD 12G SAS Dual XeonSP","<p><strong>Key Features</strong></p>
+<ul>
+<li>Storage server supports Dual Intel Xeon SP Skylake up to 1.5TB DDR4</li>
+<li>Supports 48 x 3.5″ and 4×2.5″ hot-swap SSD/Hard Drives in 4RU</li>
+<li>Two 36 ports 12G SAS expanders for maximum throughput</li>
+<li>Supports full height PCIe expansions without risers</li>
+</ul>
+<ul></ul>",Premio Inc,,ScaleStreams Products: Intel® Xeon® Scalable Processor,"4U, >40 bays, intel xeon, scalestreams, server",true,Title,Default Title,,,,,,,,BB44833D4AS18-A,0.0,,0,deny,manual,0.00,,false,false,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/eDrawer4048SFrontAngleOpenSmall_grande_468453be-9a1f-43b7-8851-92636c8588b8.png?v=1541120987,1,"",false,,,,lb,,,active
+edrawer4048s-d5-4u-48-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/eDrawer4048SFrontOpenNew-NEW.png?v=1541120987,2,"",,,,,,,,
+edrawer4048s-d5-4u-48-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/eDrawer4048SRear.png?v=1541120987,3,"",,,,,,,,
+edrawer4048s-d5-4u-48-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/eDrawer4048SRearAngleOpen.png?v=1541120987,4,"",,,,,,,,
+edrawer4048s-d5-4u-48-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/eDrawer4048STopOpen.png?v=1541120987,5,"",,,,,,,,
+edrawer4048j-s3-4u-48-bays,"eDrawer4048J-S3 4U 48 BAYS 3.5"" HDD 12G SAS DUAL EXPANDER JBOD 1100W HRP","<div class=""vc_empty_space"">
+<strong>Key Features</strong><br><span class=""vc_empty_space_inner""></span>
+</div>
+<div id=""text-block-3"" class=""mk-text-block  mk-animate-element fade-in    mk-in-viewport"">
+<ul>
+<li>4U with 48x top-load 12G SAS/SATA hot-swap trayless bays</li>
+<li>Support total 12x SFF8644 ports for up to 256Gbps of SAS bandwidth to Host and Expansion connections</li>
+<li>Dual 12G SAS expander modules supporting 12G SAS devices and EDFB for 6G SATA device</li>
+<li>1100W FAN+PSU modules with individual hot-swappable fan modules</li>
+</ul>
+</div>",Premio Inc,,JBODs,"4U, >40 bays, JBOD",true,Title,Default Title,,,,,,,,JB448S33D6MR-A,0.0,,0,deny,manual,0.00,,false,false,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/eDrawer4048SFrontOpenNew-NEW-1_grande_35ebdeeb-b014-43a0-9405-5b6d21820132.png?v=1627066692,1,"",false,,,,lb,,,active
+edrawer4048j-s3-4u-48-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/4U48-4U72-Rear.png?v=1627066704,2,"",,,,,,,,
+dss424s-un-4u-24-bays,"DSS424S-UN 4U 24 BAYS 3.5"" HDD 12G SAS REDUNDANT NODE SINGLE EPYC 1200W HRP","<p><strong>Key Features</strong></p>
+<ul>
+<li>Storage server supports Single Socket AMD EPYC™ up to 1TB DDR4 RAM</li>
+<li>Four how-swappable 60mm fan modules per motherboard module</li>
+<li>Support two hot-swap MB modules each with Xeon DP server boards in one system as unified redundant controllers</li>
+<li>HA Redundnat cluster-in-a-box solution with PCIe NTB and GigE heartbeat</li>
+</ul>",Premio Inc,,DuraStreams Products: AMD EPYC Processor,"21-40 bays, 4U, durastreams, EPYC, server",true,Title,Default Title,,,,,,,,BD42433UNTY18-A,0.0,,0,deny,manual,0.00,,false,false,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DSS424S3-front_grande_708e1819-9b50-42b9-b3f2-6a7a12d1c3d1.png?v=1541120958,1,"",false,,,,lb,,,active
+dss424s-un-4u-24-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DSS424S3-frontAngle_bea2ba41-d462-4c47-a8c1-dc8699d25c38.png?v=1541120958,2,"",,,,,,,,
+dss424s-un-4u-24-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DSS424S3-RearOpen_fa398c7e-0f72-497c-998a-a8a3bf8ba97f.png?v=1541120958,3,"",,,,,,,,
+dss424s-un-4u-24-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DSS424S-UN.png?v=1541120958,4,"",,,,,,,,
+dss424s-d5-4u-24-bays,"DSS424S-D5 4U 24 BAYS 3.5"" HDD 12G SAS REDUNDANT NODE DUAL XEON SP 1200W HRP","<p><strong>Key Features</strong></p>
+<ul>
+<li>Storage server supports Dual Intel Xeon SP Skylake up to 1.5 TB DDR4 RAM</li>
+<li>Four hot-swappable 60mm fan modules per motherboard module</li>
+<li>Support two hot-swap MB modules each with Xeon DP server boards in one system as unified redundant controllers</li>
+<li>HA Redundant Cluster-in-a-box solution with PCIe NTB and GigE heartbeat</li>
+</ul>",Premio Inc,,DuraStreams Products: Intel® Xeon® Scalable Processor,"21-40 bays, 4U, durastreams, intel xeon, server",true,Title,Default Title,,,,,,,,BD42433D5TY18-A,0.0,,0,deny,manual,0.00,,false,false,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DSS424S3-frontAngle.png?v=1541120950,1,"",false,,,,lb,,,active
+dss424s-d5-4u-24-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DSS424S3-front.png?v=1541120950,2,"",,,,,,,,
+dss424s-d5-4u-24-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DSS424S3-RearOpen.png?v=1541120950,3,"",,,,,,,,
+dss424s-d5-4u-24-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/NEW_DSS424S3-Rear.png?v=1541120950,4,"",,,,,,,,
+dss424j-s3-4u-24-bays,DSS424J-S3 4U 24 BAYS 3.5' HDD 12G SAS DUAL EXPANDER JBOD 800W HRP,"<p><b>Key Features</b></p>
+<ul>
+<li>4U with 24x 12Gbps SAS 3.5” Tray-less hot-swap HDD bays</li>
+<li>Support redundant 12G host controller for failover</li>
+<li>Two hot-swappable redundant fan modules with Smart Fan Control</li>
+<li>Management NIC port with remote access GUI</li>
+<li>Support 3x SFF8644 12G SAS wide ports per controller</li>
+</ul>",Premio Inc,,JBODs,"21-40 bays, 4U, durastreams, JBOD",true,Title,Default Title,,,,,,,,JB424S330000-A,0.0,,0,deny,manual,0.00,,false,false,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DSS424J-S3-Front-Angle_grande_74a633b4-4ecf-4628-a308-4af2ed0b0628.png?v=1541120944,1,"",false,,,,lb,,,active
+dss424j-s3-4u-24-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DSS424J-S3-Front.png?v=1541120944,2,"",,,,,,,,
+dss424j-s3-4u-24-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DSS424J-S3-Rear.png?v=1541120944,3,"",,,,,,,,
+dss424j-s3-4u-24-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DSS424J-S3-RearAngle.png?v=1541120944,4,"",,,,,,,,
+dss316s-un-3u-16-bays-3-5-hdd-12g-sas-redundant-node-single-epyc-1200w-hrp,"DSS316S-UN 3U 16 BAYS 3.5"" HDD 12G SAS REDUNDANT NODE SINGLE EPYC 1200W HRP","<p><strong>Key Features</strong></p>
+<ul>
+<li>Storage server supports single AMD EPYC™ motherboard up to 1TB DDR4</li>
+<li>Four Hot-swappable 60mm fan modules per motherboard module</li>
+<li>Support two hot-swap MB modules each with Xeon DP server boards in one system as unified redundant controllers</li>
+<li>HA Redundant cluster-in-a-box solution with PCIe NTB and GbE heartbeat</li>
+</ul>",Premio Inc,,DuraStreams Products: AMD EPYC Processor,"10-20 bays, 3U, durastreams, EPYC, server",true,Title,Default Title,,,,,,,,BD31633UNTY18-A,0.0,,0,deny,manual,0.00,,false,false,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DSS316Front_720x_54bd0255-33a6-472d-8103-df916bac78c1.png?v=1548814074,1,"",false,,,,lb,,,active
+dss316s-un-3u-16-bays-3-5-hdd-12g-sas-redundant-node-single-epyc-1200w-hrp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DSS316FrontAngle_cdddc385-dda8-414b-a96b-7bc0c6686e60.png?v=1548814074,2,"",,,,,,,,
+dss316s-un-3u-16-bays-3-5-hdd-12g-sas-redundant-node-single-epyc-1200w-hrp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DSS316Node.Toppsd_bd9a1118-b120-4be7-a563-2eab4bc4bfb6.png?v=1548814074,3,"",,,,,,,,
+dss316s-un-3u-16-bays-3-5-hdd-12g-sas-redundant-node-single-epyc-1200w-hrp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DSS316S-UN.png?v=1548814074,4,"",,,,,,,,
+dss316s-d5-3u-16-bays-3-5-hdd-12g-sas-redundant-node-dual-xeon-sp-1200w-hrp,"DSS316S-D5 3U 16 BAYS 3.5"" HDD 12G SAS REDUNDANT NODE DUAL XEON SP 1200W HRP","<p><strong>Key Features</strong></p>
+<ul>
+<li>Storage server supports Dual Intel® Xeon® SP Skylake up to 2TB DDR4</li>
+<li>Four hot-swappable 60mm fan modules per motherboard module</li>
+<li>Supports two hot-swap MB Modules each with Xeon DP server boards in one system as unified redundant controllers</li>
+<li>HA Redundant Cluster-in-a-Box solution with PCIe NTB and GigE heartbeat</li>
+</ul>",Premio Inc,,DuraStreams Products: Intel® Xeon® Scalable Processor,"10-20 bays, 3U, durastreams, intel xeon, server",true,Title,Default Title,,,,,,,,BD31633D5TY18-A,0.0,,0,deny,manual,0.00,,false,false,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DSS316Front_720x_ff85731d-f0a5-4448-9ab5-7d302c771ac4.png?v=1548813962,1,"",false,,,,lb,,,active
+dss316s-d5-3u-16-bays-3-5-hdd-12g-sas-redundant-node-dual-xeon-sp-1200w-hrp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DSS316FrontAngle.png?v=1548813962,2,"",,,,,,,,
+dss316s-d5-3u-16-bays-3-5-hdd-12g-sas-redundant-node-dual-xeon-sp-1200w-hrp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DSS316Node.Toppsd.png?v=1548813962,3,"",,,,,,,,
+dss316s-d5-3u-16-bays-3-5-hdd-12g-sas-redundant-node-dual-xeon-sp-1200w-hrp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/NEW_DSS316Rear.png?v=1548813962,4,"",,,,,,,,
+dss316j-s3-3u-16-bays,DSS316J-S3 3U 16 BAYS 3.5' HDD 12G SAS DUAL EXPANDER JBOD 500W HRP,"<p><strong>Key Features</strong></p>
+<ul>
+<li>3U with 16x 12Gbps SAS 3.5” Tray-less hot-swap HDD bays</li>
+<li>Support redundant 12G host controller for failover</li>
+<li>Two hot-swappable redundant fan modules with Smart Fan Control</li>
+<li>Management NIC port with remote access GUI</li>
+<li>Support 3x SFF8644 12G SAS wide ports per controller</li>
+</ul>",Premio Inc,,JBODs,"10-20 bays, 3U, durastreams, JBOD",true,Title,Default Title,,,,,,,,JB316S330000-A,0.0,,0,deny,manual,0.00,,false,false,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DSS316J-S3-angle.png?v=1541120923,1,"",false,,,,lb,,,active
+dss316j-s3-3u-16-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/front-copy.png?v=1541120923,2,"",,,,,,,,
+dss316j-s3-3u-16-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DSS316J-S3RearAngle.png?v=1541120923,3,"",,,,,,,,
+dss316j-s3-3u-16-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/rear.png?v=1541120923,4,"",,,,,,,,
+dss248j-s3-2u-short-depth-design-with-48x-hot-swappable-2-5-7mm-sata-ssd-or-hdd-bays,"DSS248J-S3 2U short-depth design with 48x hot-swappable 2.5""-7mm SATA SSD or HDD bays","<p><strong>Key Features</strong></p>
+<ul>
+<li>2U short-depth design with 48x hot-swappable 2.5”-7mm SATA SSD or HDD bays</li>
+<li>Support Interposer adapter to enable SATA to dual ported SAS in the carrier</li>
+<li>Dual 12G SAS Expander modules for High Availability environment</li>
+<li>Capable up to 192Gbps of SAS bandwidth to host and expansion</li>
+<li>High Efficiency 600W redundant power supply with integrated BBU option</li>
+</ul>",Premio Inc,,JBODs,"",false,Title,Default Title,,,,,,,,"",0.0,,0,deny,manual,0.00,,false,false,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DSS224-FrontAngle.png?v=1541120913,1,"",false,,,,lb,,,active
+dss248j-s3-2u-short-depth-design-with-48x-hot-swappable-2-5-7mm-sata-ssd-or-hdd-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DSS224Rear.png?v=1541120913,2,"",,,,,,,,
+dss248j-s3-2u-short-depth-design-with-48x-hot-swappable-2-5-7mm-sata-ssd-or-hdd-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DSS224-RearAngle.png?v=1541120913,3,"",,,,,,,,
+dss224s-un-2u-24-bays,"DSS224S-UN 2U 24 BAYS 2.5"" 12G SAS REDUNDANT NODE SINGLE EPYC 1200W HRP","<p><strong>Key Features</strong></p>
+<ul>
+<li>Storage server supports single AMD EPYC™ up to 1TB DDR4</li>
+<li>2U Redundant High Availability dual systems (nodes)</li>
+<li>Support high density 24 bays dual ported 12Gb/s SAS for HDD or SSD</li>
+<li>Support redundancy heartbeat through optional GbR and PCIe x 8 NTB</li>
+<li>COTS components for easy migration to future generation</li>
+</ul>",Premio Inc,,DuraStreams Products: AMD EPYC Processor,"21-40 bays, 2U, durastreams, EPYC, server",true,Title,Default Title,,,,,,,,BD22432UNTY18-A,0.0,,0,deny,manual,0.00,,false,false,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DuraStreams-DSS224S-D4Angle_a39de1f6-1493-4ba8-b0df-5e2db7e8c7b9.png?v=1541120902,1,"",false,,,,lb,,,active
+dss224s-un-2u-24-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DuraStreams-DSS224S-D4-Front_b58da13e-bf75-45ba-8359-2e7c0da9fadc.png?v=1541120902,2,"",,,,,,,,
+dss224s-un-2u-24-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DuraStreams-DSS212S-D4-RearOpen_3bff3ca6-bf9c-42a1-807f-e0c5f87fbfd7.png?v=1541120902,3,"",,,,,,,,
+dss224s-un-2u-24-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DSS224S-UN.png?v=1541120902,4,"",,,,,,,,
+dss224s-d5-2u-24-bays,"DSS224S-D5 2U 24 BAYS 2.5"" 12G SAS REDUNDANT NODE DUAL XEON SP 1200W HRP","<p><strong>Key Features</strong></p>
+<ul>
+<li>Storage server supports Dual Intel® Xeon® SP Skylake up to 2TB DDR4</li>
+<li>2U Redundant High Availability dual systems (nodes)</li>
+<li>Supports high density 24 bays dual ported 12G SAS for HDD or SSD</li>
+<li>Supports redundancy heartbeat through optional GbE and PCIe x8 NTB</li>
+<li>COTS component for easy migration to future generation</li>
+</ul>",Premio Inc,,DuraStreams Products: Intel® Xeon® Scalable Processor,"21-40 bays, 2U, durastreams, intel xeon, server",true,Title,Default Title,,,,,,,,BD22432D5TY18-A,0.0,,0,deny,manual,0.00,,false,false,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DuraStreams-DSS224S-D4Angle.png?v=1541120896,1,"",false,,,,lb,,,active
+dss224s-d5-2u-24-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DuraStreams-DSS224S-D4-Front.png?v=1541120896,2,"",,,,,,,,
+dss224s-d5-2u-24-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DuraStreams-DSS224S-D4-RearOpen.png?v=1541120896,3,"",,,,,,,,
+dss224s-d5-2u-24-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/NEW_DuraStreams-DSS224S-D4-Rear.png?v=1541120896,4,"",,,,,,,,
+dss224j-s3-2u-24-bays,"DSS224J-S3 2U 24 BAYS 2.5"" HDD/SSD 12G SAS DUAL EXPANDER JBOD 500W HRP","<p><strong>Key Features</strong></p>
+<ul>
+<li>2U with 24x SFF 2.5” 12G SAS host-swap bays for HDD or SSD</li>
+<li>Each Expander has 3x SFF8644 12G SAS wide ports</li>
+<li>Dual 12G SAS Expander modules for High Availability environment</li>
+<li>High efficiency 80Plus Platinum redundant power supplies</li>
+<li>Management NIC port with remote access GUI</li>
+</ul>",Premio Inc,,JBODs,"21-40 bays, 2U, durastreams, JBOD",true,Title,Default Title,,,,,,,,JB224S330000-A,0.0,,0,deny,manual,0.00,,false,false,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DSS224J-S3-FrontAngle.png?v=1541120890,1,"",false,,,,lb,,,active
+dss224j-s3-2u-24-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DSS224J-S3-Front.png?v=1541120890,2,"",,,,,,,,
+dss224j-s3-2u-24-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DSS224J-S3-Rear.png?v=1541120890,3,"",,,,,,,,
+dss224j-s3-2u-24-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DSS212J-S3-RearOpen_30aa7d29-d2c8-4588-b31c-553bc43883a5.png?v=1541120890,4,"",,,,,,,,
+dss212s-un-2u-12-bays-3-5-hdd-12g-sas-redundant-node-single-epyc-1200w-hrp,"DSS212S-UN 2U 12 BAYS 3.5"" HDD 12G SAS REDUNDANT NODE SINGLE EPYC 1200W HRP","<p><strong>Key Features</strong></p>
+<ul>
+<li>2U with 12x 3.5″ 12 Gbps SAS hot-swap HDD bays</li>
+<li>Five 40mm fan modules per motherboard module</li>
+<li>Supports two hot-swap MB modules each with AMD EPYC TM™ UP server boards in one system as unified redundant controllers</li>
+<li>HA redundant cluster-in-a-box with PCIe NTB and GbE Heartbeat</li>
+</ul>",Premio Inc,,DuraStreams Products: AMD EPYC Processor,"10-20 bays, 2U, durastreams, EPYC, server",true,Title,Default Title,,,,,,,,BD21233UNTY18-A,0.0,,0,deny,manual,0.00,,false,false,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DSS212S-D4-Front_99d8d858-8d98-4ccc-834b-280a3a3f122d.png?v=1541120885,1,"",false,,,,lb,,,active
+dss212s-un-2u-12-bays-3-5-hdd-12g-sas-redundant-node-single-epyc-1200w-hrp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DSS212S-D4-FrontAngle_b1bf85fb-d9e5-4ee7-94f8-49feadb1214b.png?v=1541120885,2,"",,,,,,,,
+dss212s-un-2u-12-bays-3-5-hdd-12g-sas-redundant-node-single-epyc-1200w-hrp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/NEW_DuraStreams-DSS224S-D4-Rear_3f19faf5-749a-483b-a56a-d937d526aebc.png?v=1541120885,3,"",,,,,,,,
+dss212s-un-2u-12-bays-3-5-hdd-12g-sas-redundant-node-single-epyc-1200w-hrp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DuraStreams-DSS224S-D4-RearOpen_87cc473b-9efc-4589-be89-166dc1d7d4b0.png?v=1541120885,4,"",,,,,,,,
+dss212s-u5-2u-12-bay-3-5-hdd-12g-sas-redundant-node-single-xeon-sp,"DSS212S-U5 2U 12 BAY 3.5"" HDD 12G SAS REDUNDANT NODE SINGLE XEON SP","<p><strong>Key Features</strong></p>
+<ul>
+<li>2U with 12x 3.5″ 12 Gbps SAS hot-swap HDD bays</li>
+<li>Five 40mm fan modules per motherboard module</li>
+<li>Supports two hot-swap MB modules each with Xeon DP server boards in one system as unified redundant controllers</li>
+<li>HA Redundant Cluster-in-a-Box solution with PCIe NTB and GbE heartbeat</li>
+</ul>
+<ul></ul>
+<ul></ul>
+<ul></ul>
+<ul></ul>
+<ul></ul>",Premio Inc,,DuraStreams Products: Intel® Xeon® Scalable Processor,"10-20 bays, 2U, durastreams, intel xeon, server",true,Title,Default Title,,,,,,,,BD21233U5SM18-A,30844.28116,,0,deny,manual,0.00,,false,false,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DSS212S-D4-Front.png?v=1541120876,1,"",false,,,,lb,,,active
+dss212s-u5-2u-12-bay-3-5-hdd-12g-sas-redundant-node-single-xeon-sp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DSS212S-D4-FrontAngle.png?v=1541120876,2,"",,,,,,,,
+dss212s-u5-2u-12-bay-3-5-hdd-12g-sas-redundant-node-single-xeon-sp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DuraStreams-DSS212S-D4-RearOpen.png?v=1541120876,3,"",,,,,,,,
+dss212s-u5-2u-12-bay-3-5-hdd-12g-sas-redundant-node-single-xeon-sp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/NEW_DuraStreams-DSS212S-D4-Rear.png?v=1541120876,4,"",,,,,,,,
+dss212s-d5-2u-12-bays,"DSS212S-D5 2U 12 BAYS 3.5"" HDD 12G SAS REDUNDANT NODE DUAL XEON SP 1200W HRP","<p><strong>Key Features</strong></p>
+<ul>
+<li>Storage server supports Dual Intel® Xeon® SP Skylake up to 2TB DDR4</li>
+<li>2U with 12x 3.5” 12Gbps SAS hot-swap HDD bays</li>
+<li>Five 40mm fan modules per motherboard module</li>
+<li>Support two hot-swap MB Modules each with Xeon DP server boards in one system as unified redundant controllers</li>
+<li>HA Redundant Cluster-in-a-Box solution with PCIe NTB and GbE heartbeat</li>
+</ul>",Premio Inc,,DuraStreams Products: Intel® Xeon® Scalable Processor,"10-20 bays, 2U, durastreams, intel xeon, server, XEON SP",true,Title,Default Title,,,,,,,,BD21233D5TY18-A,0.0,,0,deny,manual,0.00,,false,false,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DSS212S-D4-Front_db63eaa8-e203-48a6-ac45-114abd5af738.png?v=1541120871,1,"",false,,,,lb,,,active
+dss212s-d5-2u-12-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DSS212S-D4-FrontAngle_4f340017-09b0-4022-a623-db29ec3f4e07.png?v=1541120871,2,"",,,,,,,,
+dss212s-d5-2u-12-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DuraStreams-DSS212S-D4-RearOpen_4b71c9af-cdd1-44af-b88d-86535daa2a82.png?v=1541120871,3,"",,,,,,,,
+dss212s-d5-2u-12-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/NEW_DuraStreams-DSS212S-D4-Rear_f96b868d-798d-4f62-9a9b-cfa85cf9fa44.png?v=1541120871,4,"",,,,,,,,
+dss212j-s3-2u-12-bays,"DSS212J-S3 2U 12 BAYS 3.5"" HDD 12G SAS DUAL EXPANDER JBOD 500W HRP","<div class=""vc_empty_space"">
+<strong>Key Features</strong><br><span class=""vc_empty_space_inner""></span>
+</div>
+<div id=""text-block-3"" class=""mk-text-block  mk-animate-element fade-in    mk-in-viewport"">
+<ul>
+<li>2U with 12x 12Gbps SAS 3.5” Tray-less hot-swap HDD bays</li>
+<li>Support redundant 12G host controller for failover</li>
+<li>Two hot-swappable redundant fan modules with Smart Fan Control</li>
+<li>Support 3x SFF8644 12G SAS wide ports per controller</li>
+<li>2x Redundant high efficiency 80 Plus Platinum power supplies</li>
+<li>Management NIC port with remote access GUI</li>
+</ul>
+</div>",Premio Inc,,JBODs,"10-20 bays, 2U, durastreams, JBOD",true,Title,Default Title,,,,,,,,JB212S330000-A,0.0,,0,deny,manual,0.00,,false,false,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DSS212J-S3-FrontAngle.png?v=1541120865,1,"",false,,,,lb,,,active
+dss212j-s3-2u-12-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DSS212J-S3-Front.png?v=1541120865,2,"",,,,,,,,
+dss212j-s3-2u-12-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DSS212J-S3-RearOpen.png?v=1541120865,3,"",,,,,,,,
+dss212j-s3-2u-12-bays,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"",https://cdn.shopify.com/s/files/1/0073/8623/4950/products/DSS212J-S3-Rear.png?v=1541120865,4,"",,,,,,,,
+downloads,Downloads,"",Premio Inc,,"","",false,Title,Default Title,,,,,,,,"",0.0,,0,deny,manual,0.00,,false,false,,,,,"",,,,false,,,,lb,,,active

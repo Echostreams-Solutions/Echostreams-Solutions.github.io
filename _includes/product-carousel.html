@@ -1,0 +1,31 @@
+{%- assign imgs = page.images -%}
+{%- unless imgs -%}{%- assign imgs = page.image | default: '/assets/img/no-image.svg' | split: '|' -%}{%- endunless -%}
+<style>
+  .pd-carousel { border: 1px solid #e9ecef; border-radius: .75rem; overflow: hidden; background: #fff; }
+  .pd-carousel .carousel-item { aspect-ratio: 4 / 3; padding: 1rem; }
+  .pd-carousel .carousel-item img { width: 100%; height: 100%; object-fit: contain; }
+  .pd-carousel .carousel-control-prev, .pd-carousel .carousel-control-next { opacity: 1; width: 3.5rem; }
+  .pd-carousel .carousel-control-prev-icon, .pd-carousel .carousel-control-next-icon { background-color: rgba(3,104,179,.9); border-radius: 50%; background-size: 55%; width: 2.5rem; height: 2.5rem; }
+  .pd-thumbs { position: static; margin: 0; padding: .75rem; gap: .5rem; justify-content: flex-start; overflow-x: auto; border-top: 1px solid #e9ecef; background: #f8f9fa; }
+  .pd-thumbs [data-bs-target] { box-sizing: border-box; flex: 0 0 76px; width: 76px; height: 58px; margin: 0; padding: 3px; text-indent: 0; border: 2px solid transparent; border-radius: .4rem; background: #fff; opacity: .6; }
+  .pd-thumbs [data-bs-target].active { opacity: 1; border-color: #0368b3; }
+  .pd-thumbs img { width: 100%; height: 100%; object-fit: contain; }
+</style>
+<div id="pdCarousel" class="carousel slide pd-carousel" data-bs-ride="false" data-bs-interval="false" aria-label="{{ page.title }} images">
+  <div class="carousel-inner">
+    {%- for src in imgs %}
+    <div class="carousel-item{% if forloop.first %} active{% endif %}">
+      <img src="{{ src | relative_url }}" alt="{{ page.title }} - view {{ forloop.index }}"{% unless forloop.first %} loading="lazy"{% endunless %}>
+    </div>
+    {%- endfor %}
+  </div>
+  {%- if imgs.size > 1 %}
+  <button class="carousel-control-prev" type="button" data-bs-target="#pdCarousel" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
+  <button class="carousel-control-next" type="button" data-bs-target="#pdCarousel" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+  <div class="carousel-indicators pd-thumbs">
+    {%- for src in imgs %}
+    <button type="button" data-bs-target="#pdCarousel" data-bs-slide-to="{{ forloop.index0 }}"{% if forloop.first %} class="active" aria-current="true"{% endif %} aria-label="Image {{ forloop.index }}"><img src="{{ src | relative_url }}" alt="" loading="lazy"></button>
+    {%- endfor %}
+  </div>
+  {%- endif %}
+</div>

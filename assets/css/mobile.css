@@ -1,0 +1,39 @@
+/* Mobile fixes for the legacy (column-based) pages: home, about, family pages, etc.
+   Loaded after custom.css; not loaded on Bootstrap product pages. */
+@media all and (max-width: 768px) {
+  /* One consistent 16px page gutter instead of 30px wrapper margin + 12px per nested column */
+  .main-content .wrapper { margin-left: 16px; margin-right: 16px; }
+  .main-content [class*='col-']:not([class*='col-lg']):not([class*='col-md']):not([class*='col-sm']):not([class*='col-xl']):not(.col-12) { float: none; box-sizing: border-box; }
+  /* the wrapper already provides the gutter, and nested columns must not stack theirs */
+  .main-content .wrapper [class*='col-']:not([class*='col-lg']):not([class*='col-md']):not([class*='col-sm']):not([class*='col-xl']):not(.col-12), .main-content [class*='col-']:not([class*='col-lg']):not([class*='col-md']):not([class*='col-sm']):not([class*='col-xl']):not(.col-12) [class*='col-']:not([class*='col-lg']):not([class*='col-md']):not([class*='col-sm']):not([class*='col-xl']):not(.col-12) { padding-left: 0; padding-right: 0; }
+  /* keep the small icon grids (col-1/2/3/16/33) as floating tiles */
+  .main-content .col-1, .main-content .col-2, .main-content .col-3, .main-content .col-16, .main-content .col-33 { float: left; padding-left: 6px; padding-right: 6px; }
+
+  /* bullet lists: same indent everywhere */
+  .main-content ul, .main-content ol { padding-left: 20px; margin-left: 0; }
+  .main-content .tab-links ul { padding-left: 0; }
+  .main-content li { margin-left: 0; }
+
+  /* media never wider than its column */
+  .main-content img, .main-content svg, .main-content iframe, .main-content video { max-width: 100%; height: auto; }
+  .main-content table { display: block; max-width: 100%; overflow-x: auto; }
+
+  /* headings and hero text */
+  .main-content h1 { font-size: 28px; line-height: 1.2; }
+  .main-content h2 { font-size: 24px; line-height: 1.25; }
+
+  /* sections that carry their own large desktop padding */
+  .main-content .intro { padding-left: 16px; padding-right: 16px; box-sizing: border-box; }
+  .main-content [style*="padding: 50px"] { padding: 20px !important; }
+  .main-content [style*="padding:50px"] { padding: 20px !important; }
+
+  /* Tab bar (Overview / Products / Features...): horizontal scrolling pills instead of the ☰ accordion */
+  .main-content .tab-links { height: auto !important; padding-top: 10px; padding-bottom: 10px; }
+  .main-content .tab-links.expand { height: auto !important; }
+  .main-content .tab-links ul, .main-content .tab-links ul.open { display: flex; gap: 8px; overflow-x: auto; -webkit-overflow-scrolling: touch; white-space: nowrap; padding: 0 16px; margin: 0; }
+  .main-content .tab-links ul::before { display: none; content: none; }
+  .main-content .tab-links li { display: block; flex: 0 0 auto; height: auto; margin: 0; }
+  .main-content .tab-links a, .main-content .tab-links ul.open a { position: static; display: block; width: auto; height: auto; padding: 10px 16px; font-size: 15px; line-height: 1.2; border-radius: 999px; background: rgba(255, 255, 255, .15); color: #fff; }
+  .main-content .tab-links a.active { background: #fff; color: #0368b3; text-decoration: none; }
+  .main-content .tab-links a:hover, .main-content .tab-links a.active:hover { background: #fff !important; color: #0368b3 !important; }
+}
